@@ -1,0 +1,133 @@
+--- 
+title: "Anatomia Humana"
+author: "Daniel Claudino"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: ["referencias.bib", "packages.bib"]
+# url: your book url like https://bookdown.org/yihui/bookdown
+cover-image: figuras/capa-livro.png
+description: |
+  Neste material, estão contidos os resumos de capítulos de livros, slides, notas de aula, apresentações, exercício respondidos em sala, atividades de revisão e questionários para as provas, além de outros materiais elaborados durante  da disciplina NOME-DA-DISCIPLINA.
+link-citations: yes
+lang: "pt-BR"
+#github-repo: rstudio/bookdown-demo
+---
+
+# Apresentação da Disciplina
+
+<center><h2>ANATOMIA HUMANA</h2></center>
+
+```{r echo=FALSE, out.width="50%", fig.align = "center", fig.cap="Capa"}
+knitr::include_graphics("figuras/LIVRO-GENERICO.jpeg")
+```
+
+* Neste material, estão contidos:
+  * Minhas notas de aula;
+  * Notas de Aula de outros colegas disponibilizados para a turma
+  * Resumos de capítulos de livros;
+  * Resumos de apresentações(slides) da disciplina;
+  * Resumos de outros colegas de sala disponibilizados para a turma;
+  * Minhas apresentações(slides);
+    * Audience Q&A (Permite que o público das apresentação envie perguntas para o apresntador)
+    * Live Polls (Permite que o público das apresntações realize votações sobre os temas apresentados)
+    * Quiz (Permite que o público das apresentações participe de competições integrando-se e assimilando melhor os temas apresentados)
+  * Exercício elaborados pelos professores, respondidos ou não em sala;
+  * Questionários elaborados por mim antes das provas;
+  * Formulários de pesquisa (Google Forms) elaborados por mim para atendimento de necessidades dos dos meus colegas de sala, dos professores ou da disciplina;
+  * Coletas de dados realizadas para atendimento de necessidades dos dos meus colegas de sala, dos professores ou da disciplina;
+  * Planilhas elaboradas por mim elaboradas por mim para atendimento de necessidades dos dos meus colegas de sala, dos professores ou da disciplina;
+  * Filmes recomendados;
+  * Documentários recomendados;
+  * Jogos de aprendizado criados (Kahoots / Site principal: kahoot.com / Login do jogador: kahoot.it)
+  * Outros materiais elaborados e disponibilizados pelos professores e por mim.
+
+## Professor(a)
+
+* **Profª. Dra.** <a href="http://lattes.cnpq.br/0369824862534158">Cláudia Maria de Souza</a>
+
+## Objetivos da Disciplina
+
+* Compreender os ossos, as articulações e os músculos do corpo humano;
+* Conhecer a Nomenclatura Anatômica aplicada nos dias atuais;
+* Entender as relações anatômicas entre as várias estruturas que formam os sistemas do corpo humano
+
+## Ementa
+
+Estudo do Histórico da Anatomia, Divisão do corpo humano, Nomenclatura Anatômica, Posição Anatômica, planos, eixos, princípios de formação do corpo humano, variação morfológica, Osteologia, Artrologia, Miologia. Estudo teórico-prático dos sistemas (Sistema Nervoso, Sistema Respiratório. Sistema Cardiovascular. Sistema Linfático. Sistema Digestório. Sistema Endócrino. Sistema Urinário. Sistema Genital Masculino. Sistema Genital Feminino).
+
+## Competências e Habilidades
+
+* COMPETÊNCIAS
+  * Conhecer cada ossos, cada articulação e cada músculo do corpo humano;
+  * Relacionar as várias estruturas do corpo humano entre si;
+  * Identificar cada estrutura dos vários sistemas e relacionar os seus comprometimentos com os processos patológicos;
+  * Identificar as estruturas anatômicas dos vários Sistemas do corpo humano.
+* HABILIDADES
+  * Relacionar a Anatomia Humana com outras disciplinas da saúde;
+  * Descrever os sistemas do corpo humano;
+  * Diferenciar as características anatômicas dos elementos que compõem os vários sistemas do corpo humano;
+
+
+## Conteúdo Programático
+
+* Unidade I: Introdução à Anatomia. Osteologia. Artrologia. Miologia
+* Unidade II: Sistema Nervoso. Sistema Cardiovascular. Sistema Linfático e Sistema Respiratório Sistema Digestório 
+* Unidade III: Sistema Urinário. Sistemas Genital feminino e masculino. Sistema Endócrino.
+  
+
+## Metodologia Didática
+
+Aulas dialogadas, participativas e inclusivas, uso de metodologias ativas (PBL, TBL, PADLET, SALA INVERTIDA, PODCAST), uso de imagens interativas com participação dos alunos, uso de artigos para fins de debates, feedback das atividades e das avaliações. Seminários e estudo dirigido. Aulas práticas interativas.
+
+## Avaliação
+
+|Avaliação|Data|Descrição
+|:--|:--|:--|
+|1º Avaliação|12/09/2022|- Prova escrita valendo 10,0 com questões subjetivas (3) e objetivas (7).|
+|2º Avaliação|31/10/2022  |- Prova prática valendo 8,0 com assuntos da I e II unidades.<br> - Um TAE valendo até 2,0 que deverá ser entregue no dia da prova. (TAE = Patologias de livre escolha sobre os sistemas abordados na I e II unidades)|
+|3º Avaliação|<amarelo>dd/mm/aaaa</amarelo>|Simulado valendo 7,0 e avaliação qualitativa (assiduidade, pontualidade, participação em sala e relações interpessoais) valendo até 3,0. O Simulado será sobre os assuntos da III unidade.|
+
+07-12-22 QUARTA FEIRA = SIMULADO INTEGRADO DA FTM
+
+## Trabalho Acadêmico Efetivo (TAE) da disciplina
+
+|TAE|Data|Descrição
+|:--|:--|:--|
+|Único|31/10/2022|TAE = Patologias de livre escolha sobre os sistemas abordados na I e II unidades)|
+
+## Referências Bibliográficas
+
+### Básica
+
+* RUIZ, Cristiane Regina. Anatomia humana básica para estudantes da area de Sande. 2ed. S5o Paulo: editora Difusão, 2021.
+* ZIERI, Rodrigo. Anatomia humana. São Paulo: Pearson Education do Brasil, 2014.
+* SILVA, Francemilson Goulart da; DINIZ, Gabriela Piaconá. Anatomia e Fisiologia Humana. Vol 3. São Paulo: Difusão 2021.
+* COLICIGNO, Paulo Roberto Campos. Atlas Fotográfico de Anatomia. São Paulo:Prentice Hall, 2009
+
+### Complementar
+
+* FALAVIGNA, Asdrubal. Anatomia humana. Caxias do Sul, RS:Educs, 2013
+* RUIZ, Cristiane Regina (Org.). Anatomia humana basica. São Paulo:Difusão, 2014
+* SLEUTJES, Lúcio. Anatomia humana. 2 ed. São Paulo: Editora Yendis 2008
+* ANDRADE, Sergio Luiz Ferreira. Anatomia humana. Curitiba: Intersaberes, 2019.
+* GIRON , Paulo Augusto. Princípios de Anatomia Humana. Sao Paulo:Educs,2009
+
+
+## Controle de Versão
+
+|Versão| Data / Hora | Colaborador | Descrição da Contribuição
+|:--|:--|:--|:--|
+| 0.1 | 16/10/2022 11h00 | [Daniel Claudino](https://wa.me/5583988853815) | Versão inicial do documento|
+
+## Observação Importante
+
+**<amarelo>NOTA</amarelo>**: Este material tem como finalidade auxiliar a fixação de assuntos estudados em sala de aula de acordo com o </amarelo>**plano de ensino desta disciplina**</amarelo>.
+
+Ele <amarelo>**não deve ser**</amarelo> utilizado como <amarelo>**único material de estudo para a prova**</amarelo>, então:
+
+1. Consulte os **slides da professora** na plataforma FTM;  
+2. Faça **notas de aula** do que for tratado em sala de aula;  
+3. Consulte nossas **notas de aula**;
+
+> **Dúvidas**: <amarelo>Devem ser encaminhadas no grupo de whatsapp da disciplina.</amarelo>

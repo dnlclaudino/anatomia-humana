@@ -1,0 +1,562 @@
+# Questionários para as Provas
+
+Neste capítulo estarão contidas todos os questionários elaborados para as provas da disciplina.
+
+## Questionário para 1º Prova
+
+|Data|Tópicos Abordados|
+|:--|:--|
+|11/09/2022|- Questionário referente aos assuntos ministrados até 05/09/2022. Disponibilizado em 11/09/2022|
+
+#### 1) De acordo com seus conhecimentos, qual a importância da anatomia na sua futura atuação profissional ? {-}
+
+> O objetivo desse tipo de questão é explicar **o que é anatomia** e **como ela se aplica** na sua profissão.
+
+Segundo Pereira(2010, p.17), a Anatomia é a ciência que estuda as estruturas que compõe um organismo e as relações entre as partes dessas estruturas. A Anatomia é, atualmente, ramo da Morfologia. Etimologicamente, a origem da palavra é grega e provém de *ana*= "em partes" e *tomé*="corte". O termo correspondente em latim é *dissecare*= "dissecar".
+
+De acordo com Davidoff (2001, p.6), a Psicologia é definida como o estudo do comportamento e dos processos mentais. A Anatomia é importante para a psicologia porque faz parte do estudo da psicologia os *processos mentais*. E onde ocorrem os processos mentais ? Em uma das estruturas do corpo, o cérebro, que não funciona isoladamente, mas em conjunto com várias outras partes do corpo humano que estão relacionadas umas as outras (sistema endócrino, sistema circulatório, sistema digestivo, etc. ). O estudo da Anatomia (estrutura e suas relações) é requerido para que possamos compreender adequadamente o funcionamento do corpo humano, inclusive, do cérebro, onde ocorrem os processos mentais.
+
+<b>Referências</b>:
+
+1: DAVIDOFF, Linda L. Introdução à Psicologia. 3.ed. São Paulo:Pearson, 2001
+
+2: PEREIRA, Valdemir R. Introdução ao Estudo da Anatomia. *In*: RUIZ, C. R (org). **Anatomia Humana Básica para Estudantes da Área da Saúde**. 2010. p.17-25
+
+3: SOUZA, Cláudia Maria. Aula de revisão. Anatomia Humana. Notas de aula (05/09/2022), Faculdade Três Marias, Paraíba 2022
+
+#### 2) Qual é a divisão detalhada do corpo humano ?  {-}
+
+Ressalta Souza(2022), em sala de aula, que o corpo humano é dividido em:
+
+* Cabeça
+* Pescoço
+	* Parte anterior
+	* Parte Posterior (nuca)
+* Tronco
+	* Tórax
+	* Abdomen
+	* Pelve
+* Membros Superiores
+	* Raiz
+	* Braço
+	* Antebraço
+	* Mãos
+		* Carpo
+		* Metacarpo
+		* Dedos das mãos
+* Membros Inferiores
+	* Raiz
+	* Coxa
+	* Perna
+	* Pés
+		* Tarso
+		* Metatarso
+		* Dedos dos pés
+
+> **CUIDADO**: **dedos** (divisão do corpo) é diferente de **falanges** (ossos)
+
+<b>Referências</b>:
+
+1: SOUZA, Cláudia Maria. **Aula de revisão**. Anatomia Humana. Notas de aula (05/09/2022), Faculdade Três Marias, Paraíba 2022.
+
+#### 3) O que significa Dissecação ?  {-}
+
+Nas palavras de Souza(2022), significa cortar em partes, respeitando as estruturas anatômicas.
+
+<b>Referências</b>:
+
+1: SOUZA, Cláudia Maria. **Aula de revisão**. Anatomia Humana. Notas de aula (05/09/2022), Faculdade Três Marias, Paraíba 2022.
+
+#### 4) De acordo com os termos de posição e direção estudados (aula 08/08/2022), indique a posição de << Nome da Estrutura >>  {-}
+
+Exemplo:
+
+* **PERGUNTA**: De acordo com os termos de posição e direção estudados (aula 08/08/2022), indique a **posição do braço**, quando a referência é
+	*  O meio do corpo: Lateral
+	*  A raiz: Proximal
+* **PERGUNTA**: De acordo com os termos de posição e direção estudados (aula 08/08/2022), indique a **posição dos ossos da costela**, quando a referência é
+	*  O meio do corpo: Intermédia
+
+> **DICA**: A professora irá dar uma referência: meio, raiz, cavidade ou camada
+
+> **RELEMBRE**: **Termos de Posição** (AULA 08/08/2022)
+> 1. Quando a referência é **o meio** do corpo
+>    * Mediana ( meio )
+>    * Medial ( próximo ao meio )
+>    * Intermédia
+>    * Lateral ( posição mais distante da mediana )
+> 2. Quando a referência é **a raiz** ( onde a estrutura começa )
+>    * Proximal ( a referência é a raiz )
+>    * Média
+>    * Distal ( mais distante da raiz )
+> 3. Quando a referência é uma **cavidade**
+>    * Interno
+>    * Externo
+> 4. Quando a referência é a **camada**
+>	 * Superficial
+>	 * Profunda
+
+<b>Referências</b>
+
+1: SOUZA, Cláudia Maria. **Aula de revisão**. Anatomia Humana. Notas de aula (05/09/2022), Faculdade Três Marias, Paraíba 2022.
+
+#### 5) Defina o que é nomenclatura anatômica {-}
+
+Segundo Pereira(2010, 18), é o conjunto de termos utilizados para descrever o organismo ou suas partes.
+
+Nas palavras de Souza(2022), é o dialeto usado diariamente na Anatomia. É o jargão científico da Anatomia. É a linguagem, são os termos utilizados rotineiramente.
+
+<b>Referências</b>
+
+1: PEREIRA, Valdemir R. Introdução ao Estudo da Anatomia. *In*: RUIZ, C. R (org). **Anatomia Humana Básica para Estudantes da Área da Saúde**. 2010. p.17-25
+
+2: SOUZA, Cláudia Maria. **Termos e expressões anatômicas**. Anatomia Humana. Notas de aula, Faculdade Três Marias, Paraíba 2022.
+
+#### 6) Descreva o que é e para que serve a posição anatômica {-}
+
+Levando em consideração que o corpo humano pode permanecer em diferentes posições no espaço, os anatomistas definiram uma **posição padrão** para descrever as estruturas anatômicas (PEREIRA, 2010). Afirma Souza(2022) que ela é universal e padrão. A posição anatômica serve para descrever adequadamente as estruturas do corpo humano que devem estar na seguinte posição:
+
+1. Ereta (posição reta);
+2. Bípede (sobre os dois pés);
+3. Ortostático (em pé e parada);
+4. Olha para frente;
+5. Membros superiores estendidos e <u>**juntos**</u> ao corpo;
+6. Palmas das mãos voltadas para frente;
+7. Membros inferiores estendidos e <u>**juntos**</u> ao corpo;
+8. Pés fixados ao chão;
+
+<b>Referências</b>
+
+1: PEREIRA, Valdemir R. Introdução ao Estudo da Anatomia. *In*: RUIZ, C. R (org). **Anatomia Humana Básica para Estudantes da Área da Saúde**. 2010. p.17-25
+
+2: SOUZA, Cláudia Maria. **Posição Anatômica**. Anatomia Humana. Notas de aula (08/08/2022), Faculdade Três Marias, Paraíba 2022.
+
+#### 7) Cite os princípios de Construção do Corpo Humano {-}
+
+De acordo com o que foi lecionado por Souza(2022), são quatro os princípios de construção do corpo humano:
+
+1. **Antimeria**: É o princípio que afirma que o corpo é formado por antímeros (metades semelhantes). O antímero direito é semelhante/parecido com o antímero esquerdo.
+2. **Paquimeria**: É o princípio que afirma que o corpo é formado por tubos. Ex. tubo digestório, tubo neural
+3. **Metameria**: É o princípio que afirma que o corpo é formado por estruturas sobrepostas. Ex. costelas, coluna vertebral.
+4. **Estratigrafia** ou **Estratificação**: É o princípio que afirma que o corpo é formado por camadas.
+
+<b>Referências</b>
+
+1: SOUZA, Cláudia Maria. **Princípios de construção do corpo humano**. Anatomia Humana. Notas de aula (15/08/2022), Faculdade Três Marias, Paraíba 2022.
+
+#### 8) Defina quais são as variações anatômicas e cite exemplos {-}
+
+Afirma Souza(2022) que todas as variações morfológicas são **congênitas**. 
+
+Ainda segundo Souza(2022), os tipos de variações morfológicas são:
+
+1. **Variação Anatômica**: É a variação morfológica que não causa prejuízo para o funcionamento do corpo humano. É uma variação peculiar e pequena que não causa disfunção. Não há comprometimento funcional do órgão.
+
+> **Exemplos**: 
+> > * Destrocardia: Coração mais voltado para o lado direito.
+> > * Fibras extranuméricas do músculo deltóide.
+
+2. **Anomalia**: É a variação morfológica que compromete funcionalmente o corpo humano.
+
+> **Exemplos**:
+> > * Lábio leporino: Fenda, geralmente no lábio superior, que pode comprometer o palato (céu da boca) causando alterações respiratórias, alimentares e de fonação.
+> > * Polidactilia: Dedos extranuméricos, nas mãos ou nos pés.
+> > * Focomelia: A focomelia é uma anomalia congênita que impede a formação normal de braços e pernas. Caracteriza-se pela aproximação ou encurtamento dos membros do feto, tornando-os semelhantes aos de uma foca.
+> > * Gêmeos siamesses
+> >   * compartilhado pela cabeça;
+> >   * compartilhado lateralmente;
+> >   * compartilhado anteriormente
+
+3. **Aberrações ou monstruosidades**: São variações morfológicas que prejudicam demasiadamente as funções corporais. São incompatíveis com a vida.
+
+> Exemplos:
+> > * Anencéfalia
+
+<b>Referências</b>
+
+1: SOUZA, Cláudia Maria. **Variação morfológica**. Anatomia Humana. Notas de aula (15/08/2022), Faculdade Três Marias, Paraíba 2022.
+
+#### 9) Cite os planos de secção e delimitação {-}
+
+Conforme estudado em sala de aula (SOUZA, 2022) e de acordo com Marieb, Wilhelm e Mallat (2014, p. 7-9):
+
+##### Planos de Secção
+
+<p align="center"> 
+<img height="650" width="750" src="https://live.staticflickr.com/65535/52273035503_db2c2f27e2_o_d.png"></img><br>
+<b>Figura 2</b> - Planos de Secção
+</p>
+
+ Realizam cortes imaginários. Originam os planos de delimitação. Pergunte-se onde o corte foi iniciado?
+ 
+* Plano Sagital Mediano ( corte imaginário que divide em duas metades: lado direito e lado esquerdo) 
+* Plano Coronal ou Frontal Média ( corte imaginário que divide em duas metades: lado anterior e lado posterior ) 
+* Plano Transversal ( corte imaginário que divide em duas metades: superior e inferior ) 
+
+##### Planos de Delimitação
+
+São 6 lados. Um para cada lado do corpo e são originários dos **planos de seção**.
+
+* Plano Anterior ou Plano Ventral
+* Plano Posterior ou Plano Dorsal
+* Plano Superior ou Plano Cefálico
+* Plano Inferior ou Plano Podálico
+* Plano Lateral Direito
+* Plano Lateral Esquerdo
+
+<b>Referências</b>
+
+1: SOUZA, Cláudia Maria. **Planos de Seção e de delimitação**. Anatomia Humana. Notas de aula (08/08/2022), Faculdade Três Marias, Paraíba 2022.
+
+2: MARIEB, Elaine N.; WILHELM, Patricia Brady; MALLAT, Jon. **Anatomia Humana**. 7.ed. São Paulo:Pearson, 2014. p. 7-10
+
+###### Observações
+
+> **Outro exemplo de questão de prova 1**: Os <u>planos de secção</u> dividem o corpo em quantas partes ?
+> > **Resposta**: Duas. Sempre duas.
+
+> **IMPORTANTE**: Nas provas, a professora requer que sejam mencionados os planos <u>de forma completa</u>, juntamente com seus nomes alternativos. 
+> > **Exemplos 3.1**: Plano de delimitação anterior ou dorsal, Plano de delimitação posterior ou dorsal, Plano de delimitação superior ou cefálico, Plano de delimitação inferior ou podálico.
+> >  **Exemplos 3.2**: Plano de secção sagital anterior ou dorsal, Plano de secção coronal ou frontal média, Plano de secção transversal
+
+> Os planos são muito referenciados em exames de imagens
+
+<center><h2>Osteologia</h2></center>
+
+#### 10) O que é Osteologia? Qual a diferença entre Osteologia e esqueleto?  {-}
+
+Segundo aprendemos por meio de Souza(2022), **Osteologia** é a ciência que estuda os ossos. Os ossos quando se articulam formam o esqueleto. O **esqueleto** é a junção dos ossos do corpo. 
+
+<b>Referências</b>
+
+1: SOUZA, Cláudia Maria. **Osteologia**. Anatomia Humana. Notas de aula (15/08/2022), Faculdade Três Marias, Paraíba 2022.
+
+#### 11) Quantos osso tem o corpo humano ?  {-}
+
+Conforme aprendemos por meio de Souza(2022), o corpo humano possui 206 ossos . 
+
+<b>Referências</b>
+
+1: SOUZA, Cláudia Maria. **Osteologia**. Anatomia Humana. Notas de aula (15/08/2022), Faculdade Três Marias, Paraíba 2022.
+
+#### 12) Como o esqueleto humano é dividido ?  {-}
+
+Relembrando o que aprendemos com Souza(2022) em sala de aula, o esqueleto é dividido em:
+
+* **Esqueleto Axial**: Ossos localizados no centro do corpo.
+	* Cabeça
+	* Pescoço
+	* Tronco
+ * **Esqueleto Apendicular**: Ossos dos membros superiores e inferiores com suas raízes.
+	 * Membros Superiores
+	     * As raizes dos membros superiores: Duas Clavículas e Duas Escápulas
+	* Membros Inferior
+		* As raízes dos membros inferiores:  Dois Ossos do Quadril ( Ilíaco Direito e Ilíaco Esquerdo)    
+
+<b>Referências</b>
+
+1: SOUZA, Cláudia Maria. **Osteologia**. Anatomia Humana. Notas de aula (15/08/2022), Faculdade Três Marias, Paraíba 2022.
+
+#### 13) Cite o nome dos ossos da mão ( na ordem ) {-}
+
+* **CUIDADO NA PROVA**: 
+	* **MÃOS**: Enumerar os ossos do metacarpo e das falanges dos dedos da mão, em números ROMANOS, do dedo polegar  (MAIS LATERAL) para o dedo mínimo (veja posição anatômica, posição da mão aberta com palmas voltadas para o plano frontal). 
+	* **PÉS**: Enumerar os ossos do metatarpo e das falanges dos dedos dos pés, em números ROMANOS, do dedo polegar (MAIS MEDIANO) para o dedo mínimo.
+
+Conforme aprendemos através de Souza (2022), do mais proximal ao mais distal e do mais lateral para o mais mediano, temos:
+
+* Ossos do **Carpo**
+	* Primeira sequência de ossos
+		* Escafóite
+		* Semilunar
+	* Segunda sequência de ossos
+		* Trapézio
+		* Trapezóide
+		* Capitato
+		* Hamato
+		* Pisiforme
+		* Piramidal
+* Ossos do **Metacarpo**
+	* I metacarpo
+	* II Metacarpo
+	* III Metacarpo
+	* IV Metacarpo
+	* V Metacarpo
+* Ossos dos **Dedos das mãos**
+	* I Falange
+		* I Falange Proximal
+		* I Falange Distal
+	* II Falange
+		* II Falange Proximal
+		* II Falange Média
+		* II Falange Distal
+	* III Falange
+		* III Falange Proximal
+		* III Falange Média
+		* III Falange Distal
+	* IV Falange
+		* IV Falange Proximal
+		* IV Falange Média
+		* IV Falange Distal
+	* V Falange
+		* V Falange Proximal
+		* V Falange Média
+		* V Falange Distal
+
+<p align="center"> 
+<img height="550" width="680" src="https://files.passeidireto.com/22536456-0be2-4948-af62-602ab86fbca6/22536456-0be2-4948-af62-602ab86fbca6.jpeg"></img><br>
+<b>Figura X</b> - Membros Superiores: Ossos da mão
+</p>
+
+<b>Referências</b>
+
+1: SOUZA, Cláudia Maria. **Osteologia**. Anatomia Humana. Notas de aula (22/08/2022), Faculdade Três Marias, Paraíba 2022.
+
+#### 14) Cite o nome dos ossos dos pés ( na ordem ) {-}
+
+* **CUIDADO NA PROVA**: 
+	* **MÃOS**: Enumerar os ossos do metacarpo e das falanges dos dedos da mão, em números ROMANOS, do dedo polegar  (MAIS LATERAL) para o dedo mínimo (veja posição anatômica, posição da mão aberta com palmas voltadas para o plano frontal). 
+	* **PÉS**: Enumerar os ossos do metatarpo e das falanges dos dedos dos pés, em números ROMANOS, do dedo polegar (MAIS MEDIANO) para o dedo mínimo.
+
+Conforme aprendemos através de Souza (2022), do mais **proximal** ao mais **distal** e do mais **lateral** para o mais **mediano**, temos:
+
+* Ossos do **Tarso**
+	* Primeira sequência de ossos
+		* Calcâneo
+		* Tálus
+	* Segunda sequência de ossos
+		* Cubóide
+		* Navicular
+		* Cuneiforme Lateral
+		* Cuneiforme Intermédio
+		* Cuneiforme Medial
+* Ossos do **Metatarso**
+	* I Metatarso
+	* II Metatarso
+	* III Metatarso
+	* IV Metatarso
+	* V Metatarso
+* Ossos dos **Dedos dos pés** ( Pododáctilos )
+	* I Falange
+		* I Falange Proximal
+		* I Falange Distal
+	* II Falange
+		* II Falange Proximal
+		* II Falange Média
+		* II Falange Distal
+	* III Falange
+		* III Falange Proximal
+		* III Falange Média
+		* III Falange Distal
+	* IV Falange
+		* IV Falange Proximal
+		* IV Falange Média
+		* IV Falange Distal
+	* V Falange
+		* V Falange Proximal
+		* V Falange Média
+		* V Falange Distal
+
+|||
+|:--|:--|
+|<img height="550" width="680" src="http://www.anatomiaemfoco.com.br/wp-content/uploads/2018/11/ossos-do-p%C3%A9.jpg"></img>|<img height="550" width="680" src="https://live.staticflickr.com/65535/52338896305_20bd34dd41_o_d.jpg"></img>|
+
+<p align="center"> <b>Figura</b> - Ossos do pé </p>
+
+<b>Referências</b>
+
+1: SOUZA, Cláudia Maria. **Osteologia**. Anatomia Humana. Notas de aula (22/08/2022), Faculdade Três Marias, Paraíba 2022.
+
+#### 15) Cite as divisões (regiões) Coluna Vertebral e a quantidade de ossos {-}
+
+De acordo com o que foi lecionado em sala de aula por Souza(2022), a coluna vertebral é dividida em 05 regiões, com um total de 26 ossos.
+
+#### Região Cervical
+
+* 07 Vértebras ( I a VII )
+
+#### Região Dorsal ou Toráxica
+
+* 12 Vértebras ( VIII a XIX )
+
+#### Região Lombar
+
+* 05 Vértebras ( XX a XXIV )
+
+#### Região Sacral
+
+* Osso Sacral
+
+#### Região Coccigeana
+
+* Osso Cóccix
+
+<b>Referências</b>
+
+1: SOUZA, Cláudia Maria. **Osteologia**. Anatomia Humana. Notas de aula (22/08/2022), Faculdade Três Marias, Paraíba 2022.
+
+
+<center><h2>Sistema Muscular</h2></center>
+
+#### 16) O que é miologia ? {-}
+
+É o estudo dos músculos.
+
+#### 17) Como se classificam os músculos ? {-}
+
+* Os músculos classificam-se em três tipos: **lisos**, **estriados**(involuntários) e **esqueléticos** (voluntários).
+	* O **músculo estriado esquelético** realiza contração rápida e vigorosa. É voluntário, ou seja, sua ação depende da nossa vontade.
+	* O **músculo estriado cardíaco** é um músculo especializado, presente apenas no coração. Sua ação de contração é rápida, rítmica e contínua. Ele não para. Toda a musculatura cardíaca é músculo estriado cardíaco. E, apesar de ser músculo estriado, é **involuntário**.
+	* O **tecido muscular liso** é um músculo involuntário. Está presente principalmente na parede de órgãos, como útero, bexiga, trato gastrointestinal, vasos sanguíneos, bronquíolos, entre outros. Assim como o anterior, ser involuntário é uma característica funcional muito importante
+
+---
+
+> **Orientação da Professora para Prova**: Para prova, o aluno deverá memorizar o (1) **nome do músculo** e a (2) **localização** dele.
+
+---
+
+#### 18) Cite alguns músculos encontrados da face {-}
+
+<p align="center"> 
+<img height="550" width="850" src="https://i.pinimg.com/originals/eb/f2/46/ebf2461bc5cf54800081d1e643a1d273.jpg"></img><br>
+<b>Figura X</b> - Músculos da Face
+</p>
+
+* Músculo Orbicular dos olhos
+* Músculo Orbicular da boca ( ou dos lábios )
+* Músculo Masseter ( o músculo da mastigação
+* Músculo Risório
+* Músculo Bussinador
+* Músculo Nasal
+
+#### 19) Cite alguns músculos encontrados no pescoço {-}
+
+<p align="center"> 
+<img height="550" width="850" src="https://i.pinimg.com/originals/45/e5/74/45e5749b3d9a0fe5ec63d24cab5c0dda.jpg"></img><br>
+<b>Figura X</b> - Músculos do pescoço
+</p>
+
+* Músculo Esternocleidomastóideo
+	* Origina-se no osso esterno;
+	* Passa pela lateral do pescoço;
+	* Termina no processo mastóide do osso temporal
+* Músculo escaleno anterior
+* Músculo escaleno médio
+* Músculo escaleno posterior
+* Músculo Trapézio
+
+#### 20) Qual músculo origina-se no osso esterno e fixa-se no osso temporal ? {-}
+
+Músculo Esternocleidomastóideo
+	* Origina-se no osso esterno;
+	* Passa pela lateral do pescoço;
+	* Termina no processo mastóide do osso temporal
+
+#### 21) Músculos do braço {-}
+
+|<p align="center"><img height="550" width="850" src="https://live.staticflickr.com/65535/52322412613_0f8ebc3695_o_d.png"></img><br><b>Figura X</b> - Músculos do Ombro e Braço</p>| <p align="center"><img height="550" width="850" src="https://live.staticflickr.com/65535/52321293597_362ca2f3ee_o_d.png"></img><br><b>Figura X</b> - Músculos do Antebraço</p>|
+|:------------:|:-----------:|
+
+####  22) Cite um  músculo encontrado no ombro {-}
+
+* Deltóide
+
+> **Observação**: Embora não tenha escutado menção aos músculos abaixo, vou mencioná-los aqui:
+> * Supraespinal
+> * Infraespinal
+> * Subescapular
+
+####  23) Cite alguns músculos encontrados no braço {-}
+
+* Bíceps Braquial
+* Braquial ( Abaixo do Bíceps Braquial )
+* Tríceps Braquial 
+
+####  24) Cite alguns músculos encontrados no braço indicando para cada um o tipo do movimento que ele é responsável {-}
+
+* Bíceps Braquial ( É um músculo flexor )
+* Tríceps Braquial ( É um músculo extensor )
+
+##### Músculos do Antebraço
+
+> Não houve menção. Pelo menos que eu tenha ouvido.
+
+##### Músculos da Mão
+
+> Não houve menção. Pelo menos que eu tenha ouvido.
+
+#### 25) Cite alguns músculos encontrados no tórax indicando qual é externo e qual é interno {-}
+
+* Peitoral maior (externo)
+* Peitoral menor (interno)
+
+#### 26) Cite alguns músculos encontrados no abdômen {-}
+
+* Músculo Reto do Abdômen
+* Músculo Oblíquo Externo
+* Músculo Oblíquo Interno
+* Músculo Transverso
+
+#### 27) Músculos da Região Glútea indicando qual é externo e qual é interno {-}
+
+* Músculo Glúteo Maior ( mais externo )
+* Músculo Glúteo Médio
+* Músculo Glúteo Menor ( mais interno )
+
+#### 28) Qual o menor músculo no homem e onde ele está situado? {-}
+
+* Menor músculo **masculino** encontra-se **no testículo**.
+	* Músculo Cremaster
+
+#### 29) Qual o menor músculo no homem e onde ele está situado? {-}
+
+* Menor músculo **feminino** encontra-se **na orelha**
+	* Músculo Estapédio
+
+#### 30) Qual o maior músculo do corpo humano e em que parte do corpo humano ele está situado ? {-}
+
+> Observação: Os maiores músculos do corpo estão situados na coxa.
+
+* Região Anterior da perna
+	* Músculo Sartório ( um músculo fino e longo )
+
+#### 31) Quais os quatro músculos que compõem o Quadríceps da Coxa ou femural ? {-}
+
+* Músculo Quadríceps da Coxa ou femural ( É o nome que se dá a quatro músculos )
+		* Músculo Vasto medial
+		* Músculo Vasto intermédio
+		* Músculo Vasto lateral
+		* Músculo Retofemural
+
+#### 32) Cite, pelo menos, dois músculos anteriores e posteriores situados na coxa {-}
+
+* Região Anterior
+	* Músculo Sartório ( um músculo fino e longo )
+	* Músculo Quadríceps da Coxa ou femural ( É o nome que se dá a quatro músculos )
+		* Músculo Vasto medial
+		* Músculo Vasto intermédio
+		* Músculo Vasto lateral
+		* Músculo Retofemural
+* Região Posterior
+	* Músculo Bíceps Femural
+	* Músculo Semitendídeo
+	* Músculo Semimembranáceo
+
+#### 33) Quais músculos compõem o músculo Tricepsural, em que região ele se encontra e como ele é como vulgarmente chamado ? {-}
+
+* O músculo Tricepsural, vulgarmente conhecido como panturrilha, encontra-se na região posterior da perna e é composto por:
+	* Músculo Gastrocnêmio Medial
+	* Músculo Gastrocnêmio Lateral
+	* Músculo Sóleo ( dentro dos Gastrocnêmio Medial e Lateral )
+
+#### 34) Cite os músculos da Perna {-}
+
+* Região Posterior
+	* Músculo Tricepsural ( Panturilha - É o nome que se dá a três músculos )
+		* Músculo Gastrocnêmio Medial
+		* Músculo Gastrocnêmio Lateral
+		* Músculo Sóleo ( dentro dos Gastrocnêmio Medial e Lateral )
+
+<b>Referências</b>:
+
+1: SOUZA, Cláudia Maria. **Aula de revisão**. Anatomia Humana. Notas de aula (05/09/2022), Faculdade Três Marias, Paraíba 2022.

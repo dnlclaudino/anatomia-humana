@@ -1,0 +1,16 @@
+# Formulários, Coletas de Dados e Planilhas
+
+Neste capítulo estarão relacionados todos os Formulários, Coletas de Dados e Planilhas elaborados durante a disciplina.
+
+## Formulários
+
+|Data|Formulário Criado|Objetivo|
+|:--|:--|:--|
+|03/10/2022|[1)Formulários de Opção de Horário para Aula de Anatomia em Laboratório](https://bit.ly/3C2s6CJ)|- Formulário criado para que os alunos possam optar o horário em que desejam assistir a aula no laboratório de Anatomia, uma vez que o laboratório comporta, no máximo, 32 alunos. Os dados obtivos desse formulário são automaticamente salvos na **Planilha de Opção de Horário abaixo** |
+
+## Planilha criada
+
+|Data|Planilhas Criadas|Objetivo|
+|:--|:--|:--|
+|03/10/2022|[1) Planilha de Respostas do formulário "Opção de Horário para Aula de Anatomia em Laboratório"](https://bit.ly/3Cw5bRJ)|Os dados obtivos no formulário "**Formulários de Opção de Horário para Aula de Anatomia em Laboratório**" são salvos nessa planilha. Após passarem por triagem na primeira ABA da planilha, em caso de várias respostas consideramos a última, a resposta de opção de horário é APROVADA. Automaticamente a lista correspondente dos alunos que optaram pelo 1º horário (ABA 2) e que optaram pelo 2º horário (ABA 3) é preenchida. Conforme as opção vão sendo aprovadas, os alunos e a professora podem acompanhar a quantidade de vagas restanres|
+
