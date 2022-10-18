@@ -131,3 +131,13 @@ Ele <amarelo>**não deve ser**</amarelo> utilizado como <amarelo>**único materi
 3. Consulte nossas **notas de aula**;
 
 > **Dúvidas**: <amarelo>Devem ser encaminhadas no grupo de whatsapp da disciplina.</amarelo>
+
+## Pergunta Feitas Frequentemente (FAQ) à Professora
+
+### Pergunta 1 feita  professora
+
+* **Resposta**: Resposta da professora
+
+### Pergunta 2 feita  professora
+
+* **Resposta**: Resposta da professora
