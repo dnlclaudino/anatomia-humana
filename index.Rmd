@@ -1,5 +1,5 @@
 --- 
-title: "Anatomia Humana"
+title: "Meu Bookdown da Disciplina Anatomia Humana"
 author: "Daniel Claudino"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
