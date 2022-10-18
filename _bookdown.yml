@@ -1,3 +1,4 @@
+book_filename: "Meu-Bookdown-da-Disciplina-Anatomia-Humana"
 delete_merged_file: true
 output_dir: "docs"
 language:

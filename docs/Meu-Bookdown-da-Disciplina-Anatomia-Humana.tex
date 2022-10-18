@@ -1,0 +1,4072 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+\babelprovide[main,import]{brazilian}
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\usepackage{booktabs}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage[]{natbib}
+\bibliographystyle{plainnat}
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Meu Bookdown da Disciplina Anatomia Humana},
+  pdfauthor={Daniel Claudino},
+  pdflang={pt-BR},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Meu Bookdown da Disciplina Anatomia Humana}
+\author{Daniel Claudino}
+\date{2022-10-18}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{apresentauxe7uxe3o-da-disciplina}{%
+\chapter{Apresentação da Disciplina}\label{apresentauxe7uxe3o-da-disciplina}}
+
+ANATOMIA HUMANA
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{figuras/LIVRO-GENERICO} 
+
+}
+
+\caption{Capa}\label{fig:unnamed-chunk-1}
+\end{figure}
+
+\begin{itemize}
+\tightlist
+\item
+  Neste material, estão contidos:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Minhas notas de aula;
+  \item
+    Notas de Aula de outros colegas disponibilizados para a turma
+  \item
+    Resumos de capítulos de livros;
+  \item
+    Resumos de apresentações(slides) da disciplina;
+  \item
+    Resumos de outros colegas de sala disponibilizados para a turma;
+  \item
+    Minhas apresentações(slides);
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Audience Q\&A (Permite que o público das apresentação envie perguntas para o apresntador)
+    \item
+      Live Polls (Permite que o público das apresntações realize votações sobre os temas apresentados)
+    \item
+      Quiz (Permite que o público das apresentações participe de competições integrando-se e assimilando melhor os temas apresentados)
+    \end{itemize}
+  \item
+    Exercício elaborados pelos professores, respondidos ou não em sala;
+  \item
+    Questionários elaborados por mim antes das provas;
+  \item
+    Formulários de pesquisa (Google Forms) elaborados por mim para atendimento de necessidades dos dos meus colegas de sala, dos professores ou da disciplina;
+  \item
+    Coletas de dados realizadas para atendimento de necessidades dos dos meus colegas de sala, dos professores ou da disciplina;
+  \item
+    Planilhas elaboradas por mim elaboradas por mim para atendimento de necessidades dos dos meus colegas de sala, dos professores ou da disciplina;
+  \item
+    Filmes recomendados;
+  \item
+    Documentários recomendados;
+  \item
+    Jogos de aprendizado criados (Kahoots / Site principal: kahoot.com / Login do jogador: kahoot.it)
+  \item
+    Outros materiais elaborados e disponibilizados pelos professores e por mim.
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{professora}{%
+\section{Professor(a)}\label{professora}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Profª. Dra.} Cláudia Maria de Souza
+\end{itemize}
+
+\hypertarget{objetivos-da-disciplina}{%
+\section{Objetivos da Disciplina}\label{objetivos-da-disciplina}}
+
+\begin{itemize}
+\tightlist
+\item
+  Compreender os ossos, as articulações e os músculos do corpo humano;
+\item
+  Conhecer a Nomenclatura Anatômica aplicada nos dias atuais;
+\item
+  Entender as relações anatômicas entre as várias estruturas que formam os sistemas do corpo humano
+\end{itemize}
+
+\hypertarget{ementa}{%
+\section{Ementa}\label{ementa}}
+
+Estudo do Histórico da Anatomia, Divisão do corpo humano, Nomenclatura Anatômica, Posição Anatômica, planos, eixos, princípios de formação do corpo humano, variação morfológica, Osteologia, Artrologia, Miologia. Estudo teórico-prático dos sistemas (Sistema Nervoso, Sistema Respiratório. Sistema Cardiovascular. Sistema Linfático. Sistema Digestório. Sistema Endócrino. Sistema Urinário. Sistema Genital Masculino. Sistema Genital Feminino).
+
+\hypertarget{competuxeancias-e-habilidades}{%
+\section{Competências e Habilidades}\label{competuxeancias-e-habilidades}}
+
+\begin{itemize}
+\tightlist
+\item
+  COMPETÊNCIAS
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Conhecer cada ossos, cada articulação e cada músculo do corpo humano;
+  \item
+    Relacionar as várias estruturas do corpo humano entre si;
+  \item
+    Identificar cada estrutura dos vários sistemas e relacionar os seus comprometimentos com os processos patológicos;
+  \item
+    Identificar as estruturas anatômicas dos vários Sistemas do corpo humano.
+  \end{itemize}
+\item
+  HABILIDADES
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Relacionar a Anatomia Humana com outras disciplinas da saúde;
+  \item
+    Descrever os sistemas do corpo humano;
+  \item
+    Diferenciar as características anatômicas dos elementos que compõem os vários sistemas do corpo humano;
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{conteuxfado-programuxe1tico}{%
+\section{Conteúdo Programático}\label{conteuxfado-programuxe1tico}}
+
+\begin{itemize}
+\tightlist
+\item
+  Unidade I: Introdução à Anatomia. Osteologia. Artrologia. Miologia
+\item
+  Unidade II: Sistema Nervoso. Sistema Cardiovascular. Sistema Linfático e Sistema Respiratório Sistema Digestório
+\item
+  Unidade III: Sistema Urinário. Sistemas Genital feminino e masculino. Sistema Endócrino.
+\end{itemize}
+
+\hypertarget{metodologia-diduxe1tica}{%
+\section{Metodologia Didática}\label{metodologia-diduxe1tica}}
+
+Aulas dialogadas, participativas e inclusivas, uso de metodologias ativas (PBL, TBL, PADLET, SALA INVERTIDA, PODCAST), uso de imagens interativas com participação dos alunos, uso de artigos para fins de debates, feedback das atividades e das avaliações. Seminários e estudo dirigido. Aulas práticas interativas.
+
+\hypertarget{avaliauxe7uxe3o}{%
+\section{Avaliação}\label{avaliauxe7uxe3o}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+Avaliação
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Data
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Descrição
+\end{minipage} \\
+\midrule()
+\endhead
+1º Avaliação & 12/09/2022 & - Prova escrita valendo 10,0 com questões subjetivas (3) e objetivas (7). \\
+2º Avaliação & 31/10/2022 & - Prova prática valendo 8,0 com assuntos da I e II unidades. - Um TAE valendo até 2,0 que deverá ser entregue no dia da prova. (TAE = Patologias de livre escolha sobre os sistemas abordados na I e II unidades) \\
+3º Avaliação & dd/mm/aaaa & Simulado valendo 7,0 e avaliação qualitativa (assiduidade, pontualidade, participação em sala e relações interpessoais) valendo até 3,0. O Simulado será sobre os assuntos da III unidade. \\
+\bottomrule()
+\end{longtable}
+
+07-12-22 QUARTA FEIRA = SIMULADO INTEGRADO DA FTM
+
+\hypertarget{trabalho-acaduxeamico-efetivo-tae-da-disciplina}{%
+\section{Trabalho Acadêmico Efetivo (TAE) da disciplina}\label{trabalho-acaduxeamico-efetivo-tae-da-disciplina}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+TAE
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Data
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Descrição
+\end{minipage} \\
+\midrule()
+\endhead
+Único & 31/10/2022 & TAE = Patologias de livre escolha sobre os sistemas abordados na I e II unidades) \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{referuxeancias-bibliogruxe1ficas}{%
+\section{Referências Bibliográficas}\label{referuxeancias-bibliogruxe1ficas}}
+
+\hypertarget{buxe1sica}{%
+\subsection{Básica}\label{buxe1sica}}
+
+\begin{itemize}
+\tightlist
+\item
+  RUIZ, Cristiane Regina. Anatomia humana básica para estudantes da area de Sande. 2ed. S5o Paulo: editora Difusão, 2021.
+\item
+  ZIERI, Rodrigo. Anatomia humana. São Paulo: Pearson Education do Brasil, 2014.
+\item
+  SILVA, Francemilson Goulart da; DINIZ, Gabriela Piaconá. Anatomia e Fisiologia Humana. Vol 3. São Paulo: Difusão 2021.
+\item
+  COLICIGNO, Paulo Roberto Campos. Atlas Fotográfico de Anatomia. São Paulo:Prentice Hall, 2009
+\end{itemize}
+
+\hypertarget{complementar}{%
+\subsection{Complementar}\label{complementar}}
+
+\begin{itemize}
+\tightlist
+\item
+  FALAVIGNA, Asdrubal. Anatomia humana. Caxias do Sul, RS:Educs, 2013
+\item
+  RUIZ, Cristiane Regina (Org.). Anatomia humana basica. São Paulo:Difusão, 2014
+\item
+  SLEUTJES, Lúcio. Anatomia humana. 2 ed.~São Paulo: Editora Yendis 2008
+\item
+  ANDRADE, Sergio Luiz Ferreira. Anatomia humana. Curitiba: Intersaberes, 2019.
+\item
+  GIRON , Paulo Augusto. Princípios de Anatomia Humana. Sao Paulo:Educs,2009
+\end{itemize}
+
+\hypertarget{controle-de-versuxe3o}{%
+\section{Controle de Versão}\label{controle-de-versuxe3o}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+Versão
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Data / Hora
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Colaborador
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Descrição da Contribuição
+\end{minipage} \\
+\midrule()
+\endhead
+0.1 & 16/10/2022 11h00 & \href{https://wa.me/5583988853815}{Daniel Claudino} & Versão inicial do documento \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{observauxe7uxe3o-importante}{%
+\section{Observação Importante}\label{observauxe7uxe3o-importante}}
+
+\textbf{NOTA}: Este material tem como finalidade auxiliar a fixação de assuntos estudados em sala de aula de acordo com o \textbf{plano de ensino desta disciplina}.
+
+Ele \textbf{não deve ser} utilizado como \textbf{único material de estudo para a prova}, então:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Consulte os \textbf{slides da professora} na plataforma FTM;\\
+\item
+  Faça \textbf{notas de aula} do que for tratado em sala de aula;\\
+\item
+  Consulte nossas \textbf{notas de aula};
+\end{enumerate}
+
+\begin{quote}
+\textbf{Dúvidas}: Devem ser encaminhadas no grupo de whatsapp da disciplina.
+\end{quote}
+
+\hypertarget{pergunta-feitas-frequentemente-faq-uxe0-professora}{%
+\section{Pergunta Feitas Frequentemente (FAQ) à Professora}\label{pergunta-feitas-frequentemente-faq-uxe0-professora}}
+
+\hypertarget{pergunta-1-feita-professora}{%
+\subsection{Pergunta 1 feita professora}\label{pergunta-1-feita-professora}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Resposta}: Resposta da professora
+\end{itemize}
+
+\hypertarget{pergunta-2-feita-professora}{%
+\subsection{Pergunta 2 feita professora}\label{pergunta-2-feita-professora}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Resposta}: Resposta da professora
+\end{itemize}
+
+\hypertarget{resumo-das-apresentauxe7uxf5es-slides}{%
+\chapter{Resumo das Apresentações (Slides)}\label{resumo-das-apresentauxe7uxf5es-slides}}
+
+Em consonância com o plano da disciplina, a professora não utilizou esse recurso didático.
+
+\hypertarget{resumo-de-capuxedtulos-de-livros}{%
+\chapter{Resumo de Capítulos de Livros}\label{resumo-de-capuxedtulos-de-livros}}
+
+Em breve \ldots{}
+
+\hypertarget{notas-de-aula}{%
+\chapter{Notas de Aula}\label{notas-de-aula}}
+
+Neste capítulo estarão contidas todas as minhas notas de aula da disciplina.
+
+\hypertarget{vuxeddeos-disponibilizados}{%
+\section{Vídeos Disponibilizados}\label{vuxeddeos-disponibilizados}}
+
+Os vídeos para prova prática foram disponibilizados pela professora no grupo de whatsapp da disciplina e compilados em uma pasta virtual no Onedrive no link: \url{https://1drv.ms/u/s!Au-CrfNP6c0bha15wnMffwLPUbuLJQ?e=88YJL1}
+
+\hypertarget{nota-de-aula-nuxba-01}{%
+\section{Nota de Aula nº 01}\label{nota-de-aula-nuxba-01}}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule()
+Data & Tópicos Abordados \\
+\midrule()
+\endhead
+01/08/2022 & -Definição da Anatomia- História da Anatomia \\
+\bottomrule()
+\end{longtable}
+
+A primeira aula foi expositiva e tratou da definição da Anatomia, disciplina e conhecimento científico, e da sua história.
+
+\hypertarget{nota-de-aula-nuxba-02}{%
+\section{Nota de Aula nº 02}\label{nota-de-aula-nuxba-02}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+Data
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Tópicos Abordados
+\end{minipage} \\
+\midrule()
+\endhead
+08/08/2022 & Divisões do corpo humano;Abreviações diversas;Termos e expressões anatômicas diversas;Posição Anatômica;Planos de Secção; Planos de Delimitação;Termos de Posição e Direção \\
+\bottomrule()
+\end{longtable}
+
+Neste dia \citet{PROF-SOUSA-2022} tratou sobre os assuntos a seguir. Adicionalmente, resumimos o capítulo 1 do livro \citet{MARIEB-WILHELM-MALLAT-2014}.
+
+\hypertarget{divisuxf5es-do-corpo-humano}{%
+\subsection{Divisões do Corpo Humano}\label{divisuxf5es-do-corpo-humano}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Cabeça
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Crânio
+  \item
+    Face ( da sobrancelha ao mento )
+  \end{itemize}
+\item
+  Pescoço
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Região Posterior
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Nuca
+    \end{itemize}
+  \item
+    Região Anterior
+  \end{itemize}
+\item
+  Tronco
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Tórax
+  \item
+    Abdome
+  \item
+    Pélvis
+  \end{itemize}
+\item
+  Membros Superiores
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Raiz do membro superior
+  \item
+    Braço
+  \item
+    Antebraço
+  \item
+    Mãos
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Carpo
+    \item
+      Metacarpo
+    \item
+      Dedos das mãos
+    \end{itemize}
+  \end{itemize}
+\item
+  Membros Inferiores
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Raiz do membro Inferior
+  \item
+    Coxa
+  \item
+    Perna
+  \item
+    Pés
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Tarso
+    \item
+      Metatarso
+    \item
+      Dedos dos pés
+    \end{itemize}
+  \end{itemize}
+\end{enumerate}
+
+Figura 1 - Posição Anatômica e Termos Regionais {[}\^{}2{]}
+
+\hypertarget{abreviauxe7uxf5es-diversas}{%
+\subsection{Abreviações Diversas}\label{abreviauxe7uxf5es-diversas}}
+
+\begin{itemize}
+\tightlist
+\item
+  M. = músculo
+\item
+  Mm. = músculos
+\item
+  V. = veia
+\item
+  Vv. = veias
+\item
+  A. = artéria
+\item
+  Aa. = artérias
+\end{itemize}
+
+\hypertarget{termos-e-expressuxf5es-anatuxf4micas-diversas}{%
+\subsection{Termos e Expressões Anatômicas Diversas}\label{termos-e-expressuxf5es-anatuxf4micas-diversas}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Agenesina}: significa ausência;
+\item
+  \textbf{Sutura}: são linhas que dividem os ossos da cabeça;
+\item
+  \textbf{Epônimos}: São estruturas anatômicas que receberam nomes de seus ``descobridores''. Não são mais utilizados desde 2012 na Anatomia.
+\item
+  \textbf{Nomenclatura anatomia}: É o dialeto usado diariamente na Anatomia. É o jargão científico da Anatomia. É a linguagem, são os termos utilizados rotineiramente.
+\end{enumerate}
+
+\hypertarget{posiuxe7uxe3o-anatuxf4mica}{%
+\subsection{Posição Anatômica}\label{posiuxe7uxe3o-anatuxf4mica}}
+
+É universal e padrão.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Ereta (posição reta);
+\item
+  Bípede (sobre os dois pés);
+\item
+  Ortostático (em pé e parada);
+\item
+  Olha para frente;
+\item
+  Membros superiores estendidos e \textbf{juntos} ao corpo;
+\item
+  Palmas das mãos voltadas para frente;
+\item
+  Membros inferiores estendidos e \textbf{juntos} ao corpo;
+\item
+  Pés fixados ao chão;
+\end{enumerate}
+
+\begin{quote}
+\textbf{Observação 1}: Enumere as estruturas anatômicas de fora para dentro.
+\end{quote}
+
+\hypertarget{planos}{%
+\subsection{Planos}\label{planos}}
+
+\hypertarget{planos-de-secuxe7uxe3o}{%
+\subsubsection*{Planos de Secção}\label{planos-de-secuxe7uxe3o}}
+\addcontentsline{toc}{subsubsection}{Planos de Secção}
+
+Figura 2 - Planos de Secção
+
+Realizam cortes imaginários. Originam os planos de delimitação. Pergunte-se onde o corte foi iniciado?
+
+\begin{itemize}
+\tightlist
+\item
+  Plano Sagital Mediano ( corte imaginário que divide em duas metades: lado direito e lado esquerdo)
+\item
+  Plano Coronal ou Frontal Média ( corte imaginário que divide em duas metades: lado anterior e lado posterior )
+\item
+  Plano Transversal ( corte imaginário que divide em duas metades: superior e inferior )
+\end{itemize}
+
+\hypertarget{planos-de-delimitauxe7uxe3o}{%
+\subsubsection*{Planos de Delimitação}\label{planos-de-delimitauxe7uxe3o}}
+\addcontentsline{toc}{subsubsection}{Planos de Delimitação}
+
+São 6 lados. Um para cada lado do corpo e são originários dos \textbf{planos de seção}.
+
+\begin{itemize}
+\tightlist
+\item
+  Plano Anterior ou Plano Ventral
+\item
+  Plano Posterior ou Plano Dorsal
+\item
+  Plano Superior ou Plano Cefálico
+\item
+  Plano Inferior ou Plano Podálico
+\item
+  Plano Lateral Direito
+\item
+  Plano Lateral Esquerdo
+\end{itemize}
+
+\begin{quote}
+\textbf{Exemplo de questão de prova 1}: Os planos de secção dividem o corpo em quantas partes ?
+\textgreater{} \textbf{Resposta}: Duas. Sempre duas.
+\end{quote}
+
+\begin{quote}
+\textbf{Observação 2}: Nas provas, a professora requer que sejam mencionados os planos de forma completa, juntamente com seus nomes alternativos.
+\textgreater{} \textbf{Exemplos 3.1}: Plano de delimitação anterior ou dorsal, Plano de delimitação posterior ou dorsal, Plano de delimitação superior ou cefálico, Plano de delimitação inferior ou podálico.
+\textgreater{} \textbf{Exemplos 3.2}: Plano de secção sagital anterior ou dorsal, Plano de secção coronal ou frontal média, Plano de secção transversal
+\end{quote}
+
+\begin{quote}
+\textbf{Observação 3}: Os planos são muito referenciados em exames de imagens
+\end{quote}
+
+\hypertarget{termos-de-posiuxe7uxe3o-e-direuxe7uxe3o}{%
+\subsection{Termos de Posição e Direção}\label{termos-de-posiuxe7uxe3o-e-direuxe7uxe3o}}
+
+\hypertarget{termos-de-posiuxe7uxe3o}{%
+\subsubsection{Termos de Posição}\label{termos-de-posiuxe7uxe3o}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Quando a referência é \textbf{o meio} do corpo
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Mediana ( meio )
+  \item
+    Medial ( próximo ao meio )
+  \item
+    Intermédia
+  \item
+    Lateral ( posição mais distante da mediana )
+  \end{itemize}
+\item
+  Quando a referência é \textbf{a raiz} ( onde a estrutura começa )
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Proximal ( a referência é a raiz )
+  \item
+    Média
+  \item
+    Distal ( mais distante da raiz )
+  \end{itemize}
+\item
+  Quando a referência é uma \textbf{cavidade}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Interno
+  \item
+    Externo
+  \end{itemize}
+\item
+  Quando a referência é a \textbf{camada}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Superficial
+  \item
+    Profunda
+  \end{itemize}
+\end{enumerate}
+
+\hypertarget{termos-de-direuxe7uxe3o-ver-anotauxe7uxf5es-da-aula-15082022}{%
+\subsubsection{Termos de Direção (ver anotações da aula 15/08/2022)}\label{termos-de-direuxe7uxe3o-ver-anotauxe7uxf5es-da-aula-15082022}}
+
+\hypertarget{referuxeancias}{%
+\subsection{Referências}\label{referuxeancias}}
+
+{[}1{]}: SOUZA, Cláudia Maria. \textbf{Introdução à Anatomia Humana}. Anatomia Humana. Notas de aula (08/08/2022), Faculdade Três Marias, Paraíba 2022.
+
+\hypertarget{nota-de-aula-nuxba-03}{%
+\section{Nota de Aula nº 03}\label{nota-de-aula-nuxba-03}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+Data
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Tópicos Abordados
+\end{minipage} \\
+\midrule()
+\endhead
+15/08/2022 & Termos de Posição e Direção;Variação Morfológica;Princípios de Construção do Corpo Humano;Osteologia;Função dos Ossos \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{termos-de-posiuxe7uxe3o-e-direuxe7uxe3o-1}{%
+\subsection{Termos de Posição e Direção}\label{termos-de-posiuxe7uxe3o-e-direuxe7uxe3o-1}}
+
+\begin{itemize}
+\tightlist
+\item
+  Termos de Posição ( veja aula 08.08.2022 )
+\item
+  Termos de Direção
+\end{itemize}
+
+\begin{quote}
+Obs: falou !? :confused:
+\end{quote}
+
+\hypertarget{variauxe7uxe3o-morfoluxf3gica}{%
+\subsection{Variação Morfológica}\label{variauxe7uxe3o-morfoluxf3gica}}
+
+Todas as variações morfológicas são \textbf{congênitas}. Os tipos de variações morfológicas são:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Variação Anatômica}: É a variação morfológica que ==não causa prejuízo para o funcionamento== do corpo humano. É uma variação peculiar e pequena que não causa disfunção. Não há comprometimento funcional do órgão.
+\end{enumerate}
+
+\begin{quote}
+\textbf{Exemplos}:
+\textgreater{} * Destrocardia: Coração mais voltado para o lado direito.
+\textgreater{} * Fibras extranuméricas do músculo deltóide.
+\end{quote}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  \textbf{Anomalia}: É a variação morfológica que ==compromete funcionalmente== o corpo humano.
+\end{enumerate}
+
+\begin{quote}
+\textbf{Exemplos}:
+\textgreater{} * Lábio leporino: Fenda, geralmente no lábio superior, que pode comprometer o palato (céu da boca) causando alterações respiratórias, alimentares e de fonação.
+\textgreater{} * Polidactilia: Dedos extranuméricos, nas mãos ou nos pés.
+\textgreater{} * Focomelia: A focomelia é uma anomalia congênita que impede a formação normal de braços e pernas. Caracteriza-se pela aproximação ou encurtamento dos membros do feto, tornando-os semelhantes aos de uma foca.
+\textgreater{} * Gêmeos siamesses
+\textgreater{} * compartilhado pela cabeça;
+\textgreater{} * compartilhado lateralmente;
+\textgreater{} * compartilhado anteriormente
+\end{quote}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  \textbf{Aberrações ou monstruosidades}: São variações morfológicas que ==prejudicam demasiadamente== as funções corporais. São ==incompatíveis com a vida==.
+\end{enumerate}
+
+\begin{quote}
+Exemplos:
+\textgreater{} * Anencéfalia
+\end{quote}
+
+\textbf{Outros Termos Citados em Aula}: Destro = direita / Sinistro = esquerda
+
+\hypertarget{princuxedpios-de-construuxe7uxe3o-do-corpo-humano}{%
+\subsection{Princípios de Construção do Corpo Humano}\label{princuxedpios-de-construuxe7uxe3o-do-corpo-humano}}
+
+São quatro os princípios de construção do corpo humano:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Antimeria}: É o princípio que afirma que o corpo é formado por ==antímeros (metades semelhantes)==. O antímero direito é semelhante/parecido com o antímero esquerdo.
+\item
+  \textbf{Paquimeria}: É o princípio que afirma que o corpo é formado por ==tubos==. Ex. tubo digestório, tubo neural
+\item
+  \textbf{Metameria}: É o princípio que afirma que o corpo é formado por ==estruturas sobrepostas==. Ex. costelas, coluna vertebral.
+\item
+  \textbf{Estratigrafia} ou \textbf{Estratificação}: É o princípio que afirma que o corpo é formado por ==camadas==.
+\end{enumerate}
+
+\hypertarget{osteologia}{%
+\subsection{Osteologia}\label{osteologia}}
+
+É a ciência que estuda os ossos (Aprox. 206 ossos). Os ossos quando se articulam formam o esqueleto. O esqueleto é a junção dos ossos do corpo.
+
+\hypertarget{tipos}{%
+\subsubsection{Tipos}\label{tipos}}
+
+O esqueleto é dividido:
+* \textbf{Esqueleto Axial}: Ossos localizados no centro do corpo.
+* Cabeça
+* Pescoço
+* Tronco
+* \textbf{Esqueleto Apendicular}: Ossos dos membros superiores e inferiores com suas raízes.
+* Membros Superiores
+* As raizes dos membros superiores: Duas Clavículas e Duas Escápulas
+* Membros Inferior
+* As raizes dos membros inferiores: Dois Ossos do Quadril ( Ilíaco Direito e Ilíaco Esquerdo)
+
+\hypertarget{funuxe7uxe3o}{%
+\subsubsection{Função}\label{funuxe7uxe3o}}
+
+\begin{itemize}
+\tightlist
+\item
+  Sustentação do corpo humano;
+\item
+  Proteção de órgãos vitais;
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Caixa torácica (pulmões e coração) / caixa craniana (encéfalo)
+  \end{itemize}
+\item
+  Produção de células sanguíneas (função hematopoiética)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    médula óssea
+  \end{itemize}
+\item
+  Reserva de sais minerais
+\item
+  Alavancas
+\end{itemize}
+
+\hypertarget{referuxeancias-1}{%
+\subsection{Referências}\label{referuxeancias-1}}
+
+{[}1{]}: SOUZA, Cláudia Maria. \textbf{Introdução à Anatomia Humana}. Anatomia Humana. Notas de aula (15/08/2022), Faculdade Três Marias, Paraíba 2022.
+
+\href{MARIEB,\%20Elaine\%20N.;\%20WILHELM,\%20Patricia\%20Brady;\%20MALLAT,\%20Jon.\%20**Anatomia\%20Humana**.\%207.ed.\%20São\%20Paulo:Pearson,\%202014.}{2}: SOUZA, Cláudia Maria. \textbf{Osteologia (1/2)}. Anatomia Humana. Notas de aula (15/08/2022), Faculdade Três Marias, Paraíba 2022.
+
+\hypertarget{nota-de-aula-nuxba-04}{%
+\section{Nota de Aula nº 04}\label{nota-de-aula-nuxba-04}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+Data
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Tópicos Abordados
+\end{minipage} \\
+\midrule()
+\endhead
+22/08/2022 & TAula prática no laboratório de Anatomia - Sistema Esquelético \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{ossos-da-cabeuxe7a}{%
+\subsection{Ossos da Cabeça}\label{ossos-da-cabeuxe7a}}
+
+\hypertarget{ossos-da-face-parte-anterior}{%
+\subsection{Ossos da Face ( Parte Anterior )}\label{ossos-da-face-parte-anterior}}
+
+\begin{itemize}
+\tightlist
+\item
+  Zigomático (2)
+\item
+  Nasais (2)
+\item
+  Vômer
+\item
+  Conchas Nasais (2)
+\item
+  Maxilar (2)
+\item
+  Mandíbula
+\item
+  Palatino (2)
+\item
+  Lacrimal (2)
+\item
+  Martelo
+\item
+  Bigorna
+\item
+  Estribo
+\end{itemize}
+
+\hypertarget{ossos-do-cruxe2nio-parte-posterior}{%
+\subsection{Ossos do Crânio ( Parte Posterior )}\label{ossos-do-cruxe2nio-parte-posterior}}
+
+\begin{itemize}
+\tightlist
+\item
+  Frontal
+\item
+  Parietal (2)
+\item
+  Occipital
+\item
+  Temporal (2)
+\item
+  Esfenóide
+\item
+  Etimóide
+\end{itemize}
+
+\hypertarget{coluna-vertebral}{%
+\subsection{Coluna Vertebral}\label{coluna-vertebral}}
+
+É dividida em 05 regiões com um total de 26 ossos.
+
+\begin{itemize}
+\tightlist
+\item
+  Região Cervical
+
+  \begin{itemize}
+  \tightlist
+  \item
+    07 Vértebras ( I a VII )
+  \end{itemize}
+\item
+  Região Dorsal ou Toráxica
+
+  \begin{itemize}
+  \tightlist
+  \item
+    12 Vértebras ( VIII a XIX )
+  \end{itemize}
+\item
+  Região Lombar
+
+  \begin{itemize}
+  \tightlist
+  \item
+    05 Vértebras ( XX a XXIV )
+  \end{itemize}
+\item
+  Região Sacral
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Osso Sacral
+  \end{itemize}
+\item
+  Região Coccigeana
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Osso Cóccix
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{membros-superiores}{%
+\subsection{Membros Superiores}\label{membros-superiores}}
+
+Figura X - Membros Superiores
+
+\begin{itemize}
+\tightlist
+\item
+  Raiz
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Clavícula (2)
+  \item
+    Escápula (2)
+  \end{itemize}
+\item
+  Braço
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Úmero (2)
+  \end{itemize}
+\item
+  Antebraço
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Rádio (2 \textbf{==laterais==})
+  \item
+    Ulna (2 mediais)
+  \end{itemize}
+\item
+  Mão
+
+  \begin{itemize}
+  \tightlist
+  \item
+    ==Carpo==
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Mais Proximal ( De fora para dentro )
+
+      \begin{itemize}
+      \tightlist
+      \item
+        Escafóide
+      \item
+        Semilunar
+      \end{itemize}
+    \item
+      Mais distal ( De fora para dentro )
+
+      \begin{itemize}
+      \tightlist
+      \item
+        Trapézio
+      \item
+        Trapezóide
+      \item
+        Capitato
+      \item
+        Hamato
+      \item
+        Piramidal
+      \item
+        Pisiforme
+      \end{itemize}
+    \end{itemize}
+  \item
+    ==Metacarpo==
+
+    \begin{itemize}
+    \tightlist
+    \item
+      1º, 2º, 3º, 4º e 5º metatarso ( de fora para dentro )
+    \end{itemize}
+  \item
+    Falanges
+
+    \begin{itemize}
+    \tightlist
+    \item
+      1º Falange (2 - polegar é mais distal)
+
+      \begin{itemize}
+      \tightlist
+      \item
+        Falange proximal
+      \item
+        Falange distal
+      \end{itemize}
+    \item
+      2º, 3º 4º e 5º Falange (2 - de fora para dentro)
+
+      \begin{itemize}
+      \tightlist
+      \item
+        Falange proximal
+      \item
+        Falange média
+      \item
+        Falange distal
+      \end{itemize}
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+Figura X - Membros Superiores: Ossos da mão
+
+\hypertarget{membros-inferiores}{%
+\subsection{Membros Inferiores}\label{membros-inferiores}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule()
+\endhead
+& \\
+\bottomrule()
+\end{longtable}
+
+Figura - Ossos do pé
+
+\begin{itemize}
+\tightlist
+\item
+  Raiz
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Osso do Quadril ou Osso Ilíaco
+  \end{itemize}
+\item
+  Coxa
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Fêmur (2)
+  \end{itemize}
+\item
+  Perna
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Tíbia
+  \item
+    Fíbula (2 - mais lateral )
+  \end{itemize}
+\item
+  Pé
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Tarso
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Calcâneo
+    \item
+      Tálus
+    \item
+      Navicular
+    \item
+      Cubóide (mais lateral)
+    \item
+      Cuneiforme Lateral
+    \item
+      Cuneiforme intermédio
+    \item
+      Cuneiforme medial
+    \end{itemize}
+  \item
+    Metatarso
+
+    \begin{itemize}
+    \tightlist
+    \item
+      I, II, III, IV e V metatarso
+    \end{itemize}
+  \item
+    Falanges
+
+    \begin{itemize}
+    \tightlist
+    \item
+      I, II, III, IV e V Falange Proximal
+    \item
+      I, II, III, IV e V Falange Média
+    \item
+      I, II, III, IV e V Falange Distal
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{referuxeancias-2}{%
+\subsection{Referências}\label{referuxeancias-2}}
+
+{[}1{]}: SOUZA, Cláudia Maria. \textbf{Osteologia (2/2)}. Anatomia Humana. Notas de aula (22/08/2022), Faculdade Três Marias, Paraíba 2022.
+
+\hypertarget{nota-de-aula-nuxba-05}{%
+\section{Nota de Aula nº 05}\label{nota-de-aula-nuxba-05}}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule()
+Data & Tópicos Abordados \\
+\midrule()
+\endhead
+29/08/2022 & Sistema Articular;Sistema Muscular \\
+\bottomrule()
+\end{longtable}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Observação}: Atentar para as anotações do que foi transcrito do que a professora falou na sala de aula. As imagens são ilustrativas e tem a função apenas de facilitar a visualização anatômica das estruturas mencionadas em sala.
+\end{itemize}
+
+\hypertarget{sistema-articulatuxf3rio}{%
+\subsection{Sistema Articulatório}\label{sistema-articulatuxf3rio}}
+
+\hypertarget{definiuxe7uxe3o}{%
+\subsubsection{Definição}\label{definiuxe7uxe3o}}
+
+\begin{itemize}
+\tightlist
+\item
+  Articulação: É o encontro de dois ou mais ossos.
+\end{itemize}
+
+\hypertarget{classificauxe7uxe3o-das-articulauxe7uxf5es}{%
+\subsubsection{Classificação das Articulações}\label{classificauxe7uxe3o-das-articulauxe7uxf5es}}
+
+As articulações classificam-se com base na sua mobilidade em \textbf{sinartroses},\textbf{Anfiartroses} e \textbf{Sinoviais}.
+
+\hypertarget{sinartroses}{%
+\subsubsection{Sinartroses}\label{sinartroses}}
+
+São articulações imóveis. Os ossos se encontram, mas não se movimentam. O nome desses tipos de articulações terão sempre o nome dos ossos envolvidos.
+
+\begin{itemize}
+\tightlist
+\item
+  Exemplos de Sinartroses
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Articulação Frontoparietal ( Articulação entre os ossos frontal e parietal )
+  \item
+    Articulação Temporoparietal (2)
+  \item
+    Articulação Interparietal
+  \item
+    Articulação Internasal
+  \item
+    Articulação ==incudomalear (Entre os ossos martelo e bigorda )==
+  \item
+    Articulação ==incudoestapedial (Entre os ossos bigorna e estribo)==
+  \end{itemize}
+\end{itemize}
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5185}}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4815}}@{}}
+\toprule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\hypertarget{anfiartrose}{%
+\subsubsection{Anfiartrose}\label{anfiartrose}}
+
+\begin{itemize}
+\item
+  São as articulações semimóveis. Todas as articulações desse tipo possuem um \textbf{disco verdadeiro} ou um \textbf{disco falso}(==pseudodisco==).
+\item
+  \textbf{Discos verdadeiros} tem realmente a função de amortecer impactos. Exemplo: Articulação intercorpovertebral
+\item
+  \textbf{Discos falsos} (==pseudodisco==) não tem a função de amorcecer impactos.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Exemplos de Anfiartroses:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Articulação intercorpovertebral ( Articulação entre duas vértebras e o disco intervertebral que forma um disco verdadeiro, ou seja, que realmente tem a função de amortecer impactos )
+    \item
+      Sínfise Púbica ( Articulação entre os dois ossos do quadril e o disco interpúbico. Esse disco é um disco falso, ou seja, que não tem função de amortecer impactos provocados pela gravidade )
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{sinovial}{%
+\subsubsection{Sinovial}\label{sinovial}}
+
+\begin{itemize}
+\item
+  São articulações móveis.
+\item
+  Exemplos de articulações sinoviais:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Articulação temporomandibular ( ATM )
+  \item
+    Ombro
+  \item
+    Cotovelo
+  \item
+    Punho
+  \item
+    Articulação Interfalângica ( entre as falanges dos dedos das mãos )
+  \item
+    Joelho
+  \item
+    Quadril ( Entre a cabeça do fêmur e o acetábulo do osso ilíaco ou osso do quadril )
+  \item
+    Tornozelo
+  \item
+    Toda a coluna vertebral
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{sistema-muscular}{%
+\subsection{Sistema Muscular}\label{sistema-muscular}}
+
+\hypertarget{definiuxe7uxe3o-1}{%
+\subsubsection{Definição}\label{definiuxe7uxe3o-1}}
+
+Miologia é o estudo dos músculos.
+
+\begin{quote}
+==\textbf{Orientação da Professora para Prova}: Para prova, o aluno deverá memorizar o (1) \textbf{nome do músculo} e a (2) \textbf{localização} dele==.
+\end{quote}
+
+\hypertarget{classificauxe7uxe3o}{%
+\subsubsection{Classificação}\label{classificauxe7uxe3o}}
+
+\begin{itemize}
+\tightlist
+\item
+  Os músculos classificam-se em três tipos: \textbf{lisos}, \textbf{estriados}(involuntários) e \textbf{esqueléticos} (voluntários).
+
+  \begin{itemize}
+  \tightlist
+  \item
+    O \textbf{músculo estriado esquelético} realiza contração rápida e vigorosa. É voluntário, ou seja, sua ação depende da nossa vontade.
+  \item
+    O \textbf{músculo estriado cardíaco} é um músculo especializado, presente apenas no coração. Sua ação de contração é rápida, rítmica e contínua. Ele não para. Toda a musculatura cardíaca é músculo estriado cardíaco. E, ==apesar de ser músculo estriado, é \textbf{involuntário}==.
+  \item
+    O \textbf{tecido muscular liso} é um músculo involuntário. Está presente principalmente na parede de órgãos, como útero, bexiga, trato gastrointestinal, vasos sanguíneos, bronquíolos, entre outros. Assim como o anterior, ser involuntário é uma característica funcional muito importante
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{muxfasculos-da-face}{%
+\subsubsection{Músculos da Face}\label{muxfasculos-da-face}}
+
+Figura X - Músculos da Face
+
+\begin{itemize}
+\tightlist
+\item
+  Músculo Orbicular dos olhos
+\item
+  Músculo Orbicular da boca ( ou dos lábios )
+\item
+  Músculo Masseter ( o músculo da mastigação )
+\item
+  Músculo Risório
+\item
+  Músculo Bussinador
+\item
+  Músculo Nasal
+\end{itemize}
+
+\hypertarget{muxfasculos-do-pescouxe7o}{%
+\subsubsection{Músculos do Pescoço}\label{muxfasculos-do-pescouxe7o}}
+
+Figura X - Músculos do pescoço
+
+\begin{itemize}
+\tightlist
+\item
+  Músculo Esternocleidomastóideo
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Origina-se no osso esterno;
+  \item
+    Passa pela lateral do pescoço;
+  \item
+    Termina no processo mastóideo do osso temporal
+  \end{itemize}
+\item
+  Músculo escaleno anterior
+\item
+  Músculo escaleno médio
+\item
+  Músculo escaleno posterior
+\item
+  Músculo Trapézio
+\end{itemize}
+
+\hypertarget{muxfasculos-do-brauxe7o}{%
+\subsubsection{Músculos do Braço}\label{muxfasculos-do-brauxe7o}}
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5185}}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4815}}@{}}
+\toprule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\hypertarget{muxfasculos-do-ombro}{%
+\subsubsection{Músculos do Ombro}\label{muxfasculos-do-ombro}}
+
+\begin{itemize}
+\tightlist
+\item
+  Deltóide
+\end{itemize}
+
+\begin{quote}
+\textbf{Observação}: Embora não tenha escutado menção aos músculos abaixo, vou mencioná-los aqui:
+* Supraespinal
+* Infraespinal
+* Subescapular
+\end{quote}
+
+\hypertarget{muxfasculos-do-brauxe7o-1}{%
+\subsubsection{Músculos do Braço}\label{muxfasculos-do-brauxe7o-1}}
+
+\begin{itemize}
+\tightlist
+\item
+  Bíceps Braquial ( É um músculo flexor )
+\item
+  Braquial ( Abaixo do Bíceps Braquial )
+\item
+  Tríceps Braquial ( É um músculo extensor )
+\end{itemize}
+
+\begin{quote}
+Obs:
+\textgreater{} Supinação = rotação externa
+\textgreater{} Pronação= rotação interna
+\end{quote}
+
+\hypertarget{muxfasculos-do-antebrauxe7o}{%
+\subsubsection{Músculos do Antebraço}\label{muxfasculos-do-antebrauxe7o}}
+
+\begin{quote}
+Não houve menção. Pelo menos que eu tenha ouvido.
+\end{quote}
+
+\hypertarget{muxfasculos-da-muxe3o}{%
+\subsubsection{Músculos da Mão}\label{muxfasculos-da-muxe3o}}
+
+\begin{quote}
+Não houve menção. Pelo menos que eu tenha ouvido.
+\end{quote}
+
+\hypertarget{muxfasculos-do-tuxf3rax}{%
+\subsubsection{Músculos do Tórax}\label{muxfasculos-do-tuxf3rax}}
+
+\begin{itemize}
+\tightlist
+\item
+  Músculo Peitoral Maior (externo)
+\item
+  Músculo Peitoral 1Menor (interno)
+\end{itemize}
+
+\hypertarget{muxfasculos-do-abduxf4men}{%
+\subsubsection{Músculos do Abdômen}\label{muxfasculos-do-abduxf4men}}
+
+Figura X - Músculos do Abdome \textbar{} Abdômen
+
+\begin{itemize}
+\tightlist
+\item
+  Músculo Reto do Abdômen
+\item
+  Músculo Oblíquo Externo ( mais externo )
+\item
+  Músculo Oblíquo Interno
+\item
+  Músculo Transverso ( mais interno )
+\end{itemize}
+
+\hypertarget{muxfasculos-da-regiuxe3o-gluxfatea}{%
+\subsubsection{Músculos da Região Glútea}\label{muxfasculos-da-regiuxe3o-gluxfatea}}
+
+\begin{itemize}
+\tightlist
+\item
+  Músculo Glúteo Maior ( mais externo )
+\item
+  Músculo Glúteo Médio
+\item
+  Músculo Glúteo Menor ( mais interno )
+\end{itemize}
+
+\hypertarget{testuxedculo}{%
+\subsubsection{Testículo}\label{testuxedculo}}
+
+\begin{itemize}
+\tightlist
+\item
+  Menor músculo \textbf{masculino}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Cremaster
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{na-orelha}{%
+\subsubsection{Na orelha}\label{na-orelha}}
+
+\begin{itemize}
+\tightlist
+\item
+  Menor músculo \textbf{feminino}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Estapédio
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{muxfasculos-da-coxa}{%
+\subsubsection{Músculos da Coxa}\label{muxfasculos-da-coxa}}
+
+\begin{quote}
+Observação: Os maiores músculos do corpo estão situados na coxa.
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  Região Anterior
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Músculo Sartório ( um músculo fino e longo )
+  \item
+    Músculo Quadríceps da Coxa ou femural ( É o nome que se dá a quatro músculos )
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Músculo Vasto Medial
+    \item
+      Músculo Vasto Intermédio ( fica por baixo do M. Reto Femural )
+    \item
+      Músculo Vasto Lateral
+    \item
+      Músculo Reto Femural ( fica anterior ao M. Vasto Intermédio)
+    \end{itemize}
+  \end{itemize}
+\item
+  Região Posterior
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Músculo Bíceps Femural
+  \item
+    Músculo Semitendídeo
+  \item
+    Músculo Semimembranáceo
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{muxfasculos-da-perna}{%
+\subsubsection{Músculos da Perna}\label{muxfasculos-da-perna}}
+
+\begin{itemize}
+\tightlist
+\item
+  Região Posterior
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Músculos Tricepsural ( Panturilha - É o nome que se dá a três músculos )
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Músculo Gastrocnêmio Medial
+    \item
+      Músculo Gastrocnêmio Lateral
+    \item
+      Músculo Sóleo ( dentro dos Gastrocnêmio Medial e Lateral )
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{referuxeancias-3}{%
+\subsection{Referências}\label{referuxeancias-3}}
+
+{[}1{]}: SOUZA, Cláudia Maria. \textbf{Sistema Articulatório}. Anatomia Humana. Notas de aula (29/08/2022), Faculdade Três Marias, Paraíba 2022.
+
+\href{MARIEB,\%20Elaine\%20N.;\%20WILHELM,\%20Patricia\%20Brady;\%20MALLAT,\%20Jon.\%20**Anatomia\%20Humana**.\%207.ed.\%20São\%20Paulo:Pearson,\%202014.}{2}: SOUZA, Cláudia Maria. \textbf{Sistema Muscular}. Anatomia Humana. Notas de aula (29/08/2022), Faculdade Três Marias, Paraíba 2022.
+
+{[}3{]}: SOUZA, Cláudia Maria. \textbf{Aula de revisão}. Anatomia Humana. Notas de aula (05/09/2022), Faculdade Três Marias, Paraíba 2022.
+
+\hypertarget{nota-de-aula-nuxba-06}{%
+\section{Nota de Aula nº 06}\label{nota-de-aula-nuxba-06}}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule()
+Data & Tópicos Abordados \\
+\midrule()
+\endhead
+29/08/2022 & Sistema nervoso \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{sistema-nervoso}{%
+\subsection{Sistema Nervoso}\label{sistema-nervoso}}
+
+Figura - Estrutura do Neurônio
+
+\hypertarget{anotauxe7uxf5es-iniciais}{%
+\subsubsection{Anotações iniciais}\label{anotauxe7uxf5es-iniciais}}
+
+\begin{itemize}
+\tightlist
+\item
+  Temos aproximadamente 100 bilhões de neurônios, mas usamos aproximadamente 75\% deles, o resto está dormindo e pode ser ativado a qualquer momento.
+\item
+  A função dos neurônios é transmitir os impulsos nervosos\\
+\item
+  \textbf{Córtex} -- Referente a parte externa de um órgão.
+\item
+  \textbf{Medula} -- Referente a parte interna de um órgão, mais para glândulas e sistema nervoso.
+\item
+  \textbf{Parênquima} -- Referente a parte interna de outros órgãos como respiratórios e digestórios.
+\item
+  \textbf{Neurônios Espelhos} -- é um neurônio imitador que é ativado quando vemos algo.
+\end{itemize}
+
+\hypertarget{funuxe7uxf5es-das-cuxe9lulas-do-sistema-nervoso}{%
+\subsubsection{Funções das células do sistema nervoso}\label{funuxe7uxf5es-das-cuxe9lulas-do-sistema-nervoso}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Função dos neurônios}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Transmitir impulsos nerosos
+  \end{itemize}
+\item
+  \textbf{Função da Célula Glia}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Tem a função de \textbf{preencher os espaços entre os neurônios}, com intuito de \textbf{dar estabilidade} ao tecido nervoso.
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{neuruxf4nios}{%
+\subsubsection{Neurônios}\label{neuruxf4nios}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Corpo ou soma} - a parte mais volumosa da célula nervosa onde se localizam o núcleo
+\item
+  \textbf{Dendritos} -- São filamentos curtos e numerosos
+\item
+  \textbf{Axônio} -- São filamentos longos e únicos
+\item
+  \textbf{Bainha de Mielina} -- é lipoproteica (formada de proteína e gordura) tem a função de transportar a mensagem do cérebro para o resto do corpo
+\item
+  \textbf{Botão terminal} -- Aloja os neurotransmissores, importantes para a condução do estímulo elétrico
+\end{itemize}
+
+\hypertarget{cuxe9lula-da-glia}{%
+\subsubsection{Célula da Glia}\label{cuxe9lula-da-glia}}
+
+\begin{itemize}
+\tightlist
+\item
+  Tem a função de preencher os espaços entre os neurônios com o intuito de dar estabilidade ao tecido
+  nervoso
+\end{itemize}
+
+\hypertarget{divisuxe3o-funcional-do-sistema-nervoso}{%
+\subsection{Divisão funcional do sistema nervoso}\label{divisuxe3o-funcional-do-sistema-nervoso}}
+
+\begin{itemize}
+\tightlist
+\item
+  Sistema Nervoso \textbf{CENTRAL}: Encéfalo e medula espinhal
+\item
+  Sistema Nervoso \textbf{PERIFÉRICO}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Terminações nervosas ( pele )
+  \item
+    Nervos
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Cranianos; e
+    \item
+      Espinhais
+    \end{itemize}
+  \end{itemize}
+\item
+  Sistema Nervoso \textbf{AUTÔNOMO}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Simpático
+  \item
+    Parassimpático
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{sistema-nervoso-central-medula-espinhal}{%
+\subsection{Sistema Nervoso Central: Medula Espinhal}\label{sistema-nervoso-central-medula-espinhal}}
+
+\begin{itemize}
+\tightlist
+\item
+  A Medula Espinhal fica localizada dentro da \textbf{coluna vertebral}.
+\end{itemize}
+
+Figura - A Medula Espinhal
+
+\hypertarget{nervos-e-terminauxe7uxf5es-nervosas}{%
+\subsubsection{Nervos e terminações nervosas}\label{nervos-e-terminauxe7uxf5es-nervosas}}
+
+\begin{itemize}
+\tightlist
+\item
+  Fazem parte do sistema nervoso periférico, pois não estão localizados no centro
+  Nervos espinais
+\item
+  Saem da medula espinal e enviam estímulo para o abdome e tórax
+\end{itemize}
+
+\hypertarget{medula-espinal}{%
+\subsubsection{Medula espinal}\label{medula-espinal}}
+
+Faz parte do sistema nervoso central
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Função} -- Possui dupla função (motora e sensitiva). Sobe estímulo sensitivo e desce estímulo motor. É ela
+  que estimula o musculo diafragma e que controla o movimento do pescoço para baixo.
+\item
+  \textbf{Localização} -- Está localizada no interior do canal vertebral
+\item
+  \textbf{Definição} -- é uma haste de tecido nervoso do sistema nervoso central que está no interior da coluna vertebral
+\item
+  \textbf{Tamanho} -- Aproximadamente 44 cm de comprimento
+\item
+  \textbf{Limites}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Superior} -- é onde começa, no forame magno e C1
+  \item
+    \textbf{Inferior} -- é onde termina, na segunda vertebra lombar -- L2
+  \end{itemize}
+\item
+  \textbf{Cor} -- Branca por fora (neurônios com mielina, passa mais rápido) e cinza por dentro (neurônios sem mielina, passa mais lento).
+\item
+  \textbf{Partes} -- Cone medular, cauda equina, filamento terminal, plexo cervical, plexo braquial e plexo lombosacral
+\item
+  \textbf{Nervos espinais} -- 31 pares, nasce na coluna cevicais
+\end{itemize}
+
+\hypertarget{partes-da-medula-espinal}{%
+\subsubsection{Partes da medula espinal}\label{partes-da-medula-espinal}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Plexo cervical} -- São nervos presentes na região cervical
+\item
+  \textbf{Nervo Frênico} -- Nervo da C4 que passa sob o escaleno anterior e o musculo guia é o escaleno anterior
+\item
+  \textbf{Torácico longo} -- nervo que nasce na C7 e passa sob a caixa torácica
+\item
+  \textbf{Plexo Braquial} - Levam estímulos para os membros superiores, nasce no final da cervical e começo da
+  torácica
+\item
+  \textbf{Plexo lombosacral} - Nasce na lombar e vai para o sacro, enviam estímulo para a pelve e membros inferiores
+\item
+  \textbf{Cone medular} - Fica no final da medula em L2
+\item
+  \textbf{Filamento terminal} - Fio branco que se estende até o final, originado da piamater
+\item
+  \textbf{Cauda equina} - Conjunto do plexo lombosacral mais filamento terminal
+\end{itemize}
+
+\hypertarget{doenuxe7as-relacionadas-ao-sistema-nervoso}{%
+\subsection{Doenças Relacionadas ao Sistema Nervoso}\label{doenuxe7as-relacionadas-ao-sistema-nervoso}}
+
+\hypertarget{tetraplegia}{%
+\subsubsection{Tetraplegia}\label{tetraplegia}}
+
+\begin{itemize}
+\tightlist
+\item
+  Lesão da cervical para baixo;
+\item
+  Quando a lesão é muito alta pega o nervo frênico que irá afetar o diafragma.
+\end{itemize}
+
+\hypertarget{paraplegia}{%
+\subsection{Paraplegia}\label{paraplegia}}
+
+\begin{itemize}
+\tightlist
+\item
+  Lesão dorsal baixa da 6º a 12º vertebra Neurônios;
+\end{itemize}
+
+\hypertarget{esclerose-muxfaltipla}{%
+\subsubsection{Esclerose Múltipla}\label{esclerose-muxfaltipla}}
+
+\begin{itemize}
+\tightlist
+\item
+  Doenças que são \textbf{desmielinizantes}, destroem a bainha de mielina. É uma doença progressiva e sem medicações.
+\end{itemize}
+
+\hypertarget{tronco-encefuxe1lico}{%
+\subsubsection{Tronco encefálico}\label{tronco-encefuxe1lico}}
+
+\begin{itemize}
+\tightlist
+\item
+  Está localizado na frente do vermis, cobrindo-o
+\item
+  Dividido em 3 partes
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Mesencéfalo} -- é o buraquinho responsável pela reação de proteção ocular e auditiva
+    (reflexo)
+  \item
+    \textbf{Ponte} -- Parece duas bolinhas, tem relação com as mímicas faciais
+  \item
+    \textbf{Bulbo} -- parece uma caldinha, responsável pelo controle dos batimentos cardíacos e frequência respiratória, também tem relação com o vomito.
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{cuxe9rebro}{%
+\subsection{Cérebro}\label{cuxe9rebro}}
+
+\begin{itemize}
+\tightlist
+\item
+  Possui 2 hemisférios (direito e esquerdo) e estão separados por uma fissura chamada fissura longitudinal do cérebro
+\item
+  O cérebro possui os lobos
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Externo} -- frontal, occipital, parietal e temporal;
+  \item
+    \textbf{Interno} -- ínsula (está isolado dos outros), faz parte do sistema límbico e é responsável pelas emoções
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{sistema-luxedmbico}{%
+\subsubsection{Sistema límbico}\label{sistema-luxedmbico}}
+
+\begin{itemize}
+\tightlist
+\item
+  Amigdala, hipotálamo, giro cíngulo e lobo da ínsula
+\end{itemize}
+
+\hypertarget{corpo-caloso}{%
+\subsubsection{Corpo caloso}\label{corpo-caloso}}
+
+\begin{itemize}
+\tightlist
+\item
+  Principal meio de união entre os hemisférios cerebrais
+\end{itemize}
+
+\hypertarget{meninges}{%
+\subsubsection{Meninges}\label{meninges}}
+
+\begin{itemize}
+\tightlist
+\item
+  São membranas concêntricas (camadas, uma dentro da outra) que revestem o sistema nervoso central
+\item
+  São divididas em 3:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Duramater} - externa;
+  \item
+    \textbf{Aracnóide} -- intermediaria; e
+  \item
+    \textbf{Piamater} - interna.
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{nervos-cranianos}{%
+\subsubsection{Nervos cranianos}\label{nervos-cranianos}}
+
+I. Olfatório (nariz)\\
+II. Óptico (enxergar)\\
+III. Oculomotor (movimentar os olhos)\\
+IV. Troclear (faringe)\\
+V. Trigêmeo (face)\\
+VI. Abducente (língua)\\
+VII. Facial (rosto)\\
+VIII. Vestíbulo coclear (orelha)\\
+IX. Glossofaríngeo (língua e faringe)\\
+X. Vago (tórax, diafragma e abdome)\\
+XI. Acessório (pescoço)\\
+XII. Hipoglosso (mexer a língua
+
+\hypertarget{anotauxe7uxf5es-adicionais}{%
+\subsection{Anotações Adicionais}\label{anotauxe7uxf5es-adicionais}}
+
+\begin{itemize}
+\tightlist
+\item
+  A medula está localizada no interior ??QUAL PALAVRA??? vertebral;
+\item
+  Lesão
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Quanto mais superior (alta) \textbf{TETRAPLEGIA};
+  \item
+    Quanto mais inferior (baixa) \textbf{PARAPLEGIA};
+  \end{itemize}
+\item
+  A medula controla os movimentos \textbf{do pescoço para baixo}
+\item
+  É uma parte do tecido nervoso do sistema nervoso central que está no interior da coluna vertebral
+\item
+  A medula possui, aproximadamente, 44 cm de tamanho
+\item
+  A medula começa no \textbf{forâme magno} (C1) e termina na L2
+\item
+  A cor da medula é branca por fora e cinza por dentro
+\end{itemize}
+
+\hypertarget{nomes-de-estruturas-verificar-o-que-suxe3o-com-a-professora}{%
+\subsection{Nomes de Estruturas ( verificar o que são com a professora )}\label{nomes-de-estruturas-verificar-o-que-suxe3o-com-a-professora}}
+
+\begin{itemize}
+\tightlist
+\item
+  Cone Medular
+\item
+  Cauda Esquina
+\item
+  Filamento Terminal
+\item
+  Plexo Braquial
+\item
+  Plexo Lombo Sacral
+\end{itemize}
+
+\hypertarget{nota-de-aula-nuxba-07}{%
+\section{Nota de Aula nº 07}\label{nota-de-aula-nuxba-07}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+Data
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Tópicos Abordados
+\end{minipage} \\
+\midrule()
+\endhead
+03/10/2022 & - Sistema Circulatório: Definição;Localização;Forma;Peso;Camadas;Configuração Interna;Alguns Vasos \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{sistema-circulatuxf3rio}{%
+\subsection{Sistema Circulatório}\label{sistema-circulatuxf3rio}}
+
+Figura - Coração
+
+\hypertarget{anotauxe7uxf5es-iniciais-1}{%
+\subsection{Anotações iniciais}\label{anotauxe7uxf5es-iniciais-1}}
+
+\begin{itemize}
+\tightlist
+\item
+  O \textbf{sistema circulatório} também é chamado de \textbf{sistema cardiovascular}.
+\end{itemize}
+
+\hypertarget{corauxe7uxe3o}{%
+\subsection{Coração}\label{corauxe7uxe3o}}
+
+\hypertarget{definiuxe7uxe3o-2}{%
+\subsubsection{Definição}\label{definiuxe7uxe3o-2}}
+
+\begin{itemize}
+\tightlist
+\item
+  É um órgão muscular que funciona como uma bomba. É formado por tecido muscular esquelético involuntário chamado MIOCÁRDIO.
+\end{itemize}
+
+\hypertarget{localizauxe7uxe3o}{%
+\subsubsection{Localização}\label{localizauxe7uxe3o}}
+
+\begin{itemize}
+\tightlist
+\item
+  Situado na caixa toráxica, com dois terços voltados para o lado esquerdo;
+\item
+  Posteriormente do osso esterno
+\item
+  A frente da coluna vertebral;
+\item
+  Acima do músculo diafragma
+\item
+  Entre os dois pulmões (Mediastino = espaço entre os dois pulmões);
+\end{itemize}
+
+\hypertarget{forma}{%
+\subsubsection{Forma}\label{forma}}
+
+\begin{itemize}
+\tightlist
+\item
+  Ele tem a forma de uma \textbf{TRIÂNGULO INVERTIDO}
+\item
+  Com \textbf{ÁPICE} voltado para
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Baixo
+  \item
+    Frente
+  \item
+    Esquerda
+  \end{itemize}
+\item
+  Com a \textbf{BASE} voltada para
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Cima
+  \item
+    Trás
+  \item
+    Direira
+  \end{itemize}
+\item
+  O coração está \textbf{OBLIQUAMENTE INCLINADO}
+\end{itemize}
+
+\hypertarget{peso}{%
+\subsubsection{Peso}\label{peso}}
+
+Por questões hormonais:
+
+\begin{itemize}
+\tightlist
+\item
+  Homem: 300g
+\item
+  Mulher: 270g
+\end{itemize}
+
+\hypertarget{camadas}{%
+\subsubsection{Camadas}\label{camadas}}
+
+\begin{itemize}
+\tightlist
+\item
+  EXTERNA
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Pericárdio ( 1 camada só )
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Parietal
+    \item
+      Visceral
+    \end{itemize}
+  \end{itemize}
+\item
+  INTERMEDIÁRIA
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Miocárdio
+  \end{itemize}
+\item
+  INTERNA
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Endocárdio
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{configurauxe7uxe3o-interna}{%
+\subsubsection{Configuração Interna}\label{configurauxe7uxe3o-interna}}
+
+Figura - Bombeamento do Coração
+
+\begin{itemize}
+\tightlist
+\item
+  O coração possui 4 compartimentos
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Dois ÁTRIOS
+
+    \begin{itemize}
+    \tightlist
+    \item
+      O SEPTO INTERATRIAL é a parede entre os dois átrios
+    \end{itemize}
+  \item
+    Dois VENTRÍCULOS
+
+    \begin{itemize}
+    \tightlist
+    \item
+      O SEPTO VENTRICULAR é a parede entre os dois ventrículo
+    \end{itemize}
+  \end{itemize}
+\item
+  O ÁTRIO DIREITO possui comunicação com o VENTRÍCULO DIREITO
+
+  \begin{itemize}
+  \tightlist
+  \item
+    O orifício que comunica o átrio do ventrículo chama-se ÓSTIO
+  \item
+    O ÓSTIO(DIREITO) possui 03 VÁLVULAS que forma a VALVA TRICÚSPIDE
+  \end{itemize}
+\item
+  O ÁTRIO ESQUERDO possui comunicação com o VENTRÍCULO ESQUERDO
+
+  \begin{itemize}
+  \tightlist
+  \item
+    O orifício que comunica o átrio do ventrículo chama-se ÓSTIO
+  \item
+    O ÓSTIO(ESQUERDO) possui 02 VÁLVULAS que forma a VALVA BICÚSPIDE (MITRAL)
+  \end{itemize}
+\item
+  A FUNÇÃO DAS VALVAS é impedir o retorno do sangue dos VENTRÍCULOS para os ÁTRIOS
+\end{itemize}
+
+\textbf{Observações}: Cúspide = prega
+
+\hypertarget{tipos-de-vasos-e-cores-esquematicas}{%
+\subsubsection{Tipos de Vasos e Cores Esquematicas}\label{tipos-de-vasos-e-cores-esquematicas}}
+
+\begin{itemize}
+\tightlist
+\item
+  Esquemáticamente:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    As ARTÉRIAS possuem COR VERMELA
+  \item
+    As VEIAS possuem COR AZUL ( realmente azuladas )
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{exceuxe7uxe3o}{%
+\subsubsection{Exceção}\label{exceuxe7uxe3o}}
+
+\begin{itemize}
+\tightlist
+\item
+  Única ARTERIA (AZUL) que leva SANGUE VENOSO para os PULMÕES ➥ Artéria Pulmonar
+\item
+  São Quatro (duas de cada pulmão) as VEIAS (PULMONARES) que trazem sangue ARTERIAL dos PULMÕES
+\end{itemize}
+
+\hypertarget{vasos-importantes}{%
+\subsubsection{Vasos Importantes}\label{vasos-importantes}}
+
+\begin{itemize}
+\tightlist
+\item
+  Vasos coronarianos
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Vasos externamente localizados no coração
+  \end{itemize}
+\item
+  Veias Importantes
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Cava Inferior
+  \item
+    Cava Superior
+  \item
+    Pulmonar
+  \item
+    Subclávia
+  \item
+    Basílica
+  \end{itemize}
+\item
+  Artérias Importantes
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Aorta
+  \item
+    Femural
+  \item
+    Subclávia
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{caracteruxedsticas-das-veias-e-artuxe9rias}{%
+\subsubsection{Características das veias e artérias}\label{caracteruxedsticas-das-veias-e-artuxe9rias}}
+
+\begin{itemize}
+\tightlist
+\item
+  Artéria
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Mais grossa
+  \item
+    Mais profunda
+  \item
+    São centrifugas
+  \item
+    Conduzem o sangue arterial ( rico em O2), exceto a ARTÉRIA PULMONAR
+  \end{itemize}
+\item
+  Veia
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Mais Fina
+  \item
+    Mais Superficial
+  \item
+    São centrípetas
+  \item
+    Conduzem o sangue VENOSO ( rico em CO2 ), exceto as QUATRO VEIAS PULMONARES
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{nota-de-aula-nuxba-08}{%
+\section{Nota de Aula nº 08}\label{nota-de-aula-nuxba-08}}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule()
+Data & Tópicos Abordados \\
+\midrule()
+\endhead
+10/10/2022 & - Sistema Respiratório \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{sistema-respiratuxf3rio}{%
+\subsection{Sistema Respiratório}\label{sistema-respiratuxf3rio}}
+
+Figura - Foto do Quadro - Esquema do Sistema Respiratório
+
+\hypertarget{nariz-interno-ou-cavidade-nasal}{%
+\subsubsection{Nariz Interno ou Cavidade Nasal}\label{nariz-interno-ou-cavidade-nasal}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Vibrissas} (cílios ou pêlos)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Encontram-se no início da cavidade nasal e possui três funções:
+
+    \begin{enumerate}
+    \def\labelenumi{\arabic{enumi}.}
+    \tightlist
+    \item
+      filtrar o ar inspirado
+    \item
+      aquecer o ar inspirado
+    \item
+      umidificar o ar inspirado
+    \end{enumerate}
+  \end{itemize}
+\item
+  \textbf{Conchas nasais }(elevações)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Superior / média / inferior
+  \end{itemize}
+\item
+  \textbf{Meatos nasais} (espaços entre as conchas)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Superior / médio / inferior
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{faringe}{%
+\subsubsection{Faringe}\label{faringe}}
+
+\begin{itemize}
+\tightlist
+\item
+  É um tubo por onde passa \textbf{AR} e \textbf{ALIMENTO};
+\item
+  Possui um estrutura chamada EPIGLOTE que dirige o AR e o ALIMENTO, respectivamente para a LARINGE e o ESÔFAGO.
+\end{itemize}
+
+\hypertarget{laringe}{%
+\subsubsection{Laringe}\label{laringe}}
+
+Figura - Laringe
+
+\begin{itemize}
+\tightlist
+\item
+  Epiglote
+
+  \begin{itemize}
+  \tightlist
+  \item
+    É uma cartilagem da laringe
+  \end{itemize}
+\item
+  Glote
+
+  \begin{itemize}
+  \tightlist
+  \item
+    É a \textbf{ÁREA} que compreende:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Prega vestibular
+    \item
+      Ventrículo
+    \item
+      Prega Vocal
+    \end{itemize}
+  \end{itemize}
+\item
+  Prega Vestibular
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Ela tem função de LIMPEZA
+  \item
+    Ela está localizada superiormente a PREGA VOCAL
+  \end{itemize}
+\item
+  Ventriculo da Laringe
+
+  \begin{itemize}
+  \tightlist
+  \item
+    É o espaço compreendido entre as pregas VESTIBULAR e VOCAL
+  \end{itemize}
+\item
+  Prega Vocal ( Voz )
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Sua função é essencial para o aparelho fonador
+  \item
+    Vibra para a emissão da Voz
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{traquuxe9ia}{%
+\subsubsection{Traquéia}\label{traquuxe9ia}}
+
+Figura - Caixa Toráxica - Enfase na Traquéia
+
+\begin{itemize}
+\tightlist
+\item
+  É um órgão tubular;
+\item
+  ANTERIORMENTE:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Formado por semianéis e ligamentos (\textbf{LIGAMENTOS ANULARES}), alternadamente;
+  \end{itemize}
+\item
+  POSTERIORMENTE
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Constituído por pelo MÚSCULO TRAQUEAL;
+  \end{itemize}
+\item
+  A PARTE FINAL DA TRAQUÉIA é chamada de BIFURCAÇÃO DA TRAQUÉIA
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Bronquio DIRETO
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Características
+
+      \begin{itemize}
+      \tightlist
+      \item
+        Mais grosso
+      \item
+        Mais curto
+      \item
+        Mais vertical
+      \end{itemize}
+    \end{itemize}
+  \item
+    Bronquio ESQUERDO
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Características
+
+      \begin{itemize}
+      \tightlist
+      \item
+        Mais Fino
+      \item
+        Mais Longo
+      \item
+        Mais Horizontal
+      \end{itemize}
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{pulmuxe3o}{%
+\subsubsection{Pulmão}\label{pulmuxe3o}}
+
+Figura - Caixa Toráxica - Enfase na Traquéia
+
+\begin{itemize}
+\tightlist
+\item
+  Fissuras: Divide o pulmão em COMPARTIMENTOS chamados de LOBOS (Superior, Médio e Inferior);
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Pulmão Direito
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Fissura Horizontal
+    \item
+      Fissura Oblíqua
+    \end{itemize}
+  \item
+    Pulmão Esquerdo
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Fissura Oblíquoa
+    \end{itemize}
+  \end{itemize}
+\item
+  Incisura Cardíaca
+\item
+  Língula: Parte inferior da incisura cardíaca
+\item
+  Ápice
+\item
+  Base
+\end{itemize}
+
+\hypertarget{notas-de-aula-de-outros-alunos}{%
+\chapter{Notas de Aula de Outros Alunos}\label{notas-de-aula-de-outros-alunos}}
+
+Neste capítulo estarão contidas todas as notas de aula da disciplina elaboradas por outros alunos que autorizaram a sua publicação e disponibilização. Para consultar os acessos a esses materiais \href{https://app.bitly.com/Bi6shp8v5bx/bitlinks/3ruv6mM/details?filterActive=true\&tags=Anatomia}{Clique aqui}
+
+\hypertarget{nota-de-aula-nuxba-07-1}{%
+\section{Nota de Aula nº 07}\label{nota-de-aula-nuxba-07-1}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+Data
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Tópicos Abordados
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Colaborador
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Link
+\end{minipage} \\
+\midrule()
+\endhead
+03/10/2022 & - Sistema Circulatório: Definição;Localização;Forma;Peso;Camadas;Configuração Interna;Alguns Vasos & Daniel Souza & \href{https://bit.ly/3ruv6mM}{Link para Download} \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{nota-de-aula-nuxba-08-1}{%
+\section{Nota de Aula nº 08}\label{nota-de-aula-nuxba-08-1}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+Data
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Tópicos Abordados
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Colaborador
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Link
+\end{minipage} \\
+\midrule()
+\endhead
+10/10/2022 & - Sistema Respiratório & Daniel Souza & \href{https://bit.ly/3TnJbOH}{Link para Download} \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{resumos-de-outros-alunos}{%
+\chapter{Resumos de Outros Alunos}\label{resumos-de-outros-alunos}}
+
+Neste capítulo estarão contidas os resumos elaborados por colegas alunos do curso de psicologia que foram disponibililzados por eles. Os resumos receberam autorização para sua publicação e disponibilização aos demais colegas
+
+\hypertarget{assuntos-01}{%
+\section{ASSUNTOS 01}\label{assuntos-01}}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule()
+Data & Tópicos Abordados \\
+\midrule()
+\endhead
+dd/mm/aaaa & - Tópico 1- Tópico 2- Tópico 3 \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{seuxe7uxe3o-numerada-1}{%
+\subsection{Seção Numerada 1}\label{seuxe7uxe3o-numerada-1}}
+
+Para \citet{BOCK2001}, tornamo-nos pouco compreensíveis se não recorrermos a \ldots.
+
+\hypertarget{seuxe7uxe3o-nuxe3o-numerada-1}{%
+\subsection*{Seção não Numerada 1}\label{seuxe7uxe3o-nuxe3o-numerada-1}}
+\addcontentsline{toc}{subsection}{Seção não Numerada 1}
+
+Para \citet{BOCK2001}, tornamo-nos pouco compreensíveis se não recorrermos a \ldots.
+
+\hypertarget{seuxe7uxe3o-nuxe3o-numerada-2}{%
+\subsection*{Seção não Numerada 2}\label{seuxe7uxe3o-nuxe3o-numerada-2}}
+\addcontentsline{toc}{subsection}{Seção não Numerada 2}
+
+Para \citet{BOCK2001}, tornamo-nos pouco compreensíveis se não recorrermos a \ldots.
+
+\hypertarget{seuxe7uxe3o-numerada-2}{%
+\subsection{Seção Numerada 2}\label{seuxe7uxe3o-numerada-2}}
+
+Para \citet{BOCK2001}, tornamo-nos pouco compreensíveis se não recorrermos a \ldots.
+
+\hypertarget{seuxe7uxe3o-nuxe3o-numerada-1-1}{%
+\subsection*{Seção não Numerada 1}\label{seuxe7uxe3o-nuxe3o-numerada-1-1}}
+\addcontentsline{toc}{subsection}{Seção não Numerada 1}
+
+Para \citet{BOCK2001}, tornamo-nos pouco compreensíveis se não recorrermos a \ldots.
+
+Para \citet{DAVIDOFF2001}, deve-se lembrar que\ldots.
+
+\hypertarget{seuxe7uxe3o-nuxe3o-numerada-2-1}{%
+\subsection*{Seção não Numerada 2}\label{seuxe7uxe3o-nuxe3o-numerada-2-1}}
+\addcontentsline{toc}{subsection}{Seção não Numerada 2}
+
+Para \citet{BOCK2001}, tornamo-nos pouco compreensíveis se não recorrermos a \ldots.
+
+Para \citet{DAVIDOFF2001}, deve-se lembrar que\ldots.
+
+\hypertarget{seuxe7uxe3o-nuxe3o-numerada-2-2}{%
+\subsection*{Seção não Numerada 2}\label{seuxe7uxe3o-nuxe3o-numerada-2-2}}
+\addcontentsline{toc}{subsection}{Seção não Numerada 2}
+
+Para \citet{BOCK2001}, tornamo-nos pouco compreensíveis se não recorrermos a \ldots.
+
+Para \citet{DAVIDOFF2001}, deve-se lembrar que\ldots.
+
+\hypertarget{assunto-02}{%
+\section{ASSUNTO 02}\label{assunto-02}}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule()
+Data & Tópicos Abordados \\
+\midrule()
+\endhead
+dd/mm/aaaa & - Tópico 1- Tópico 2- Tópico 3 \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{seuxe7uxe3o-numerada-1-1}{%
+\subsection{Seção Numerada 1}\label{seuxe7uxe3o-numerada-1-1}}
+
+Para \citet{BOCK2001}, tornamo-nos pouco compreensíveis se não recorrermos a \ldots.
+
+\hypertarget{seuxe7uxe3o-nuxe3o-numerada-1-2}{%
+\subsection*{Seção não Numerada 1}\label{seuxe7uxe3o-nuxe3o-numerada-1-2}}
+\addcontentsline{toc}{subsection}{Seção não Numerada 1}
+
+Para \citet{BOCK2001}, tornamo-nos pouco compreensíveis se não recorrermos a \ldots.
+
+\hypertarget{seuxe7uxe3o-nuxe3o-numerada-2-3}{%
+\subsection*{Seção não Numerada 2}\label{seuxe7uxe3o-nuxe3o-numerada-2-3}}
+\addcontentsline{toc}{subsection}{Seção não Numerada 2}
+
+Para \citet{BOCK2001}, tornamo-nos pouco compreensíveis se não recorrermos a \ldots.
+
+\hypertarget{seuxe7uxe3o-numerada-2-1}{%
+\subsection{Seção Numerada 2}\label{seuxe7uxe3o-numerada-2-1}}
+
+Para \citet{BOCK2001}, tornamo-nos pouco compreensíveis se não recorrermos a \ldots.
+
+\hypertarget{seuxe7uxe3o-nuxe3o-numerada-1-3}{%
+\subsection*{Seção não Numerada 1}\label{seuxe7uxe3o-nuxe3o-numerada-1-3}}
+\addcontentsline{toc}{subsection}{Seção não Numerada 1}
+
+Para \citet{BOCK2001}, tornamo-nos pouco compreensíveis se não recorrermos a \ldots.
+
+Para \citet{DAVIDOFF2001}, deve-se lembrar que\ldots.
+
+\hypertarget{seuxe7uxe3o-nuxe3o-numerada-2-4}{%
+\subsection*{Seção não Numerada 2}\label{seuxe7uxe3o-nuxe3o-numerada-2-4}}
+\addcontentsline{toc}{subsection}{Seção não Numerada 2}
+
+Para \citet{BOCK2001}, tornamo-nos pouco compreensíveis se não recorrermos a \ldots.
+
+Para \citet{DAVIDOFF2001}, deve-se lembrar que\ldots.
+
+\hypertarget{seuxe7uxe3o-nuxe3o-numerada-2-5}{%
+\subsection*{Seção não Numerada 2}\label{seuxe7uxe3o-nuxe3o-numerada-2-5}}
+\addcontentsline{toc}{subsection}{Seção não Numerada 2}
+
+Para \citet{BOCK2001}, tornamo-nos pouco compreensíveis se não recorrermos a \ldots.
+
+Para \citet{DAVIDOFF2001}, deve-se lembrar que\ldots.
+
+\hypertarget{nas-pruxf3ximas-aulas}{%
+\section{Nas próximas aulas}\label{nas-pruxf3ximas-aulas}}
+
+Veja, de acordo com o plano da disciplina, o que já foi estudado e o que ainda será ministrado nas próximas aulas:
+
+Tópico 1
+Tópico 2
+Tórico 3
+
+\hypertarget{resumos-de-artigos-monografias-dissertauxe7uxf5es-e-teses}{%
+\chapter{Resumos de Artigos, Monografias, Dissertações e Teses}\label{resumos-de-artigos-monografias-dissertauxe7uxf5es-e-teses}}
+
+Neste capítulo estarão contidos meus resumos sobre Artigos, Monografias, Dissertações e Teses.
+
+Não realizei nenhum resumo de Artigos, Monografias, Dissertações e Teses até o momento.
+
+\hypertarget{exercuxedcios}{%
+\chapter{Exercícios}\label{exercuxedcios}}
+
+Neste capítulo estarão contidas todas as minhas notas de aula da disciplina.
+
+Até o presente momento não houve exercício criado nem por mim nem pela professora da disciplina.
+
+\hypertarget{questionuxe1rios-para-as-provas}{%
+\chapter{Questionários para as Provas}\label{questionuxe1rios-para-as-provas}}
+
+Neste capítulo estarão contidas todos os questionários elaborados para as provas da disciplina.
+
+\hypertarget{questionuxe1rio-para-1uxba-prova}{%
+\section{Questionário para 1º Prova}\label{questionuxe1rio-para-1uxba-prova}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+Data
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Tópicos Abordados
+\end{minipage} \\
+\midrule()
+\endhead
+11/09/2022 & - Questionário referente aos assuntos ministrados até 05/09/2022. Disponibilizado em 11/09/2022 \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{de-acordo-com-seus-conhecimentos-qual-a-importuxe2ncia-da-anatomia-na-sua-futura-atuauxe7uxe3o-profissional}{%
+\subsubsection*{1) De acordo com seus conhecimentos, qual a importância da anatomia na sua futura atuação profissional ?}\label{de-acordo-com-seus-conhecimentos-qual-a-importuxe2ncia-da-anatomia-na-sua-futura-atuauxe7uxe3o-profissional}}
+\addcontentsline{toc}{subsubsection}{1) De acordo com seus conhecimentos, qual a importância da anatomia na sua futura atuação profissional ?}
+
+\begin{quote}
+O objetivo desse tipo de questão é explicar \textbf{o que é anatomia} e \textbf{como ela se aplica} na sua profissão.
+\end{quote}
+
+Segundo Pereira(2010, p.17), a Anatomia é a ciência que estuda as estruturas que compõe um organismo e as relações entre as partes dessas estruturas. A Anatomia é, atualmente, ramo da Morfologia. Etimologicamente, a origem da palavra é grega e provém de \emph{ana}= ``em partes'' e \emph{tomé}=``corte''. O termo correspondente em latim é \emph{dissecare}= ``dissecar''.
+
+De acordo com Davidoff (2001, p.6), a Psicologia é definida como o estudo do comportamento e dos processos mentais. A Anatomia é importante para a psicologia porque faz parte do estudo da psicologia os \emph{processos mentais}. E onde ocorrem os processos mentais ? Em uma das estruturas do corpo, o cérebro, que não funciona isoladamente, mas em conjunto com várias outras partes do corpo humano que estão relacionadas umas as outras (sistema endócrino, sistema circulatório, sistema digestivo, etc. ). O estudo da Anatomia (estrutura e suas relações) é requerido para que possamos compreender adequadamente o funcionamento do corpo humano, inclusive, do cérebro, onde ocorrem os processos mentais.
+
+Referências:
+
+1: DAVIDOFF, Linda L. Introdução à Psicologia. 3.ed. São Paulo:Pearson, 2001
+
+2: PEREIRA, Valdemir R. Introdução ao Estudo da Anatomia. \emph{In}: RUIZ, C. R (org). \textbf{Anatomia Humana Básica para Estudantes da Área da Saúde}. 2010. p.17-25
+
+3: SOUZA, Cláudia Maria. Aula de revisão. Anatomia Humana. Notas de aula (05/09/2022), Faculdade Três Marias, Paraíba 2022
+
+\hypertarget{qual-uxe9-a-divisuxe3o-detalhada-do-corpo-humano}{%
+\subsubsection*{2) Qual é a divisão detalhada do corpo humano ?}\label{qual-uxe9-a-divisuxe3o-detalhada-do-corpo-humano}}
+\addcontentsline{toc}{subsubsection}{2) Qual é a divisão detalhada do corpo humano ?}
+
+Ressalta Souza(2022), em sala de aula, que o corpo humano é dividido em:
+
+\begin{itemize}
+\tightlist
+\item
+  Cabeça
+\item
+  Pescoço
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Parte anterior
+  \item
+    Parte Posterior (nuca)
+  \end{itemize}
+\item
+  Tronco
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Tórax
+  \item
+    Abdomen
+  \item
+    Pelve
+  \end{itemize}
+\item
+  Membros Superiores
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Raiz
+  \item
+    Braço
+  \item
+    Antebraço
+  \item
+    Mãos
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Carpo
+    \item
+      Metacarpo
+    \item
+      Dedos das mãos
+    \end{itemize}
+  \end{itemize}
+\item
+  Membros Inferiores
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Raiz
+  \item
+    Coxa
+  \item
+    Perna
+  \item
+    Pés
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Tarso
+    \item
+      Metatarso
+    \item
+      Dedos dos pés
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\begin{quote}
+\textbf{CUIDADO}: \textbf{dedos} (divisão do corpo) é diferente de \textbf{falanges} (ossos)
+\end{quote}
+
+Referências:
+
+1: SOUZA, Cláudia Maria. \textbf{Aula de revisão}. Anatomia Humana. Notas de aula (05/09/2022), Faculdade Três Marias, Paraíba 2022.
+
+\hypertarget{o-que-significa-dissecauxe7uxe3o}{%
+\subsubsection*{3) O que significa Dissecação ?}\label{o-que-significa-dissecauxe7uxe3o}}
+\addcontentsline{toc}{subsubsection}{3) O que significa Dissecação ?}
+
+Nas palavras de Souza(2022), significa cortar em partes, respeitando as estruturas anatômicas.
+
+Referências:
+
+1: SOUZA, Cláudia Maria. \textbf{Aula de revisão}. Anatomia Humana. Notas de aula (05/09/2022), Faculdade Três Marias, Paraíba 2022.
+
+\hypertarget{de-acordo-com-os-termos-de-posiuxe7uxe3o-e-direuxe7uxe3o-estudados-aula-08082022-indique-a-posiuxe7uxe3o-de-nome-da-estrutura}{%
+\subsubsection*{4) De acordo com os termos de posição e direção estudados (aula 08/08/2022), indique a posição de \textless\textless{} Nome da Estrutura \textgreater\textgreater{}}\label{de-acordo-com-os-termos-de-posiuxe7uxe3o-e-direuxe7uxe3o-estudados-aula-08082022-indique-a-posiuxe7uxe3o-de-nome-da-estrutura}}
+\addcontentsline{toc}{subsubsection}{4) De acordo com os termos de posição e direção estudados (aula 08/08/2022), indique a posição de \textless\textless{} Nome da Estrutura \textgreater\textgreater{}}
+
+Exemplo:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{PERGUNTA}: De acordo com os termos de posição e direção estudados (aula 08/08/2022), indique a \textbf{posição do braço}, quando a referência é
+
+  \begin{itemize}
+  \tightlist
+  \item
+    O meio do corpo: Lateral
+  \item
+    A raiz: Proximal
+  \end{itemize}
+\item
+  \textbf{PERGUNTA}: De acordo com os termos de posição e direção estudados (aula 08/08/2022), indique a \textbf{posição dos ossos da costela}, quando a referência é
+
+  \begin{itemize}
+  \tightlist
+  \item
+    O meio do corpo: Intermédia
+  \end{itemize}
+\end{itemize}
+
+\begin{quote}
+\textbf{DICA}: A professora irá dar uma referência: meio, raiz, cavidade ou camada
+\end{quote}
+
+\begin{quote}
+\textbf{RELEMBRE}: \textbf{Termos de Posição} (AULA 08/08/2022)
+1. Quando a referência é \textbf{o meio} do corpo
+* Mediana ( meio )
+* Medial ( próximo ao meio )
+* Intermédia
+* Lateral ( posição mais distante da mediana )
+2. Quando a referência é \textbf{a raiz} ( onde a estrutura começa )
+* Proximal ( a referência é a raiz )
+* Média
+* Distal ( mais distante da raiz )
+3. Quando a referência é uma \textbf{cavidade}
+* Interno
+* Externo
+4. Quando a referência é a \textbf{camada}
+* Superficial
+* Profunda
+\end{quote}
+
+Referências
+
+1: SOUZA, Cláudia Maria. \textbf{Aula de revisão}. Anatomia Humana. Notas de aula (05/09/2022), Faculdade Três Marias, Paraíba 2022.
+
+\hypertarget{defina-o-que-uxe9-nomenclatura-anatuxf4mica}{%
+\subsubsection*{5) Defina o que é nomenclatura anatômica}\label{defina-o-que-uxe9-nomenclatura-anatuxf4mica}}
+\addcontentsline{toc}{subsubsection}{5) Defina o que é nomenclatura anatômica}
+
+Segundo Pereira(2010, 18), é o conjunto de termos utilizados para descrever o organismo ou suas partes.
+
+Nas palavras de Souza(2022), é o dialeto usado diariamente na Anatomia. É o jargão científico da Anatomia. É a linguagem, são os termos utilizados rotineiramente.
+
+Referências
+
+1: PEREIRA, Valdemir R. Introdução ao Estudo da Anatomia. \emph{In}: RUIZ, C. R (org). \textbf{Anatomia Humana Básica para Estudantes da Área da Saúde}. 2010. p.17-25
+
+2: SOUZA, Cláudia Maria. \textbf{Termos e expressões anatômicas}. Anatomia Humana. Notas de aula, Faculdade Três Marias, Paraíba 2022.
+
+\hypertarget{descreva-o-que-uxe9-e-para-que-serve-a-posiuxe7uxe3o-anatuxf4mica}{%
+\subsubsection*{6) Descreva o que é e para que serve a posição anatômica}\label{descreva-o-que-uxe9-e-para-que-serve-a-posiuxe7uxe3o-anatuxf4mica}}
+\addcontentsline{toc}{subsubsection}{6) Descreva o que é e para que serve a posição anatômica}
+
+Levando em consideração que o corpo humano pode permanecer em diferentes posições no espaço, os anatomistas definiram uma \textbf{posição padrão} para descrever as estruturas anatômicas (PEREIRA, 2010). Afirma Souza(2022) que ela é universal e padrão. A posição anatômica serve para descrever adequadamente as estruturas do corpo humano que devem estar na seguinte posição:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Ereta (posição reta);
+\item
+  Bípede (sobre os dois pés);
+\item
+  Ortostático (em pé e parada);
+\item
+  Olha para frente;
+\item
+  Membros superiores estendidos e \textbf{juntos} ao corpo;
+\item
+  Palmas das mãos voltadas para frente;
+\item
+  Membros inferiores estendidos e \textbf{juntos} ao corpo;
+\item
+  Pés fixados ao chão;
+\end{enumerate}
+
+Referências
+
+1: PEREIRA, Valdemir R. Introdução ao Estudo da Anatomia. \emph{In}: RUIZ, C. R (org). \textbf{Anatomia Humana Básica para Estudantes da Área da Saúde}. 2010. p.17-25
+
+2: SOUZA, Cláudia Maria. \textbf{Posição Anatômica}. Anatomia Humana. Notas de aula (08/08/2022), Faculdade Três Marias, Paraíba 2022.
+
+\hypertarget{cite-os-princuxedpios-de-construuxe7uxe3o-do-corpo-humano}{%
+\subsubsection*{7) Cite os princípios de Construção do Corpo Humano}\label{cite-os-princuxedpios-de-construuxe7uxe3o-do-corpo-humano}}
+\addcontentsline{toc}{subsubsection}{7) Cite os princípios de Construção do Corpo Humano}
+
+De acordo com o que foi lecionado por Souza(2022), são quatro os princípios de construção do corpo humano:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Antimeria}: É o princípio que afirma que o corpo é formado por antímeros (metades semelhantes). O antímero direito é semelhante/parecido com o antímero esquerdo.
+\item
+  \textbf{Paquimeria}: É o princípio que afirma que o corpo é formado por tubos. Ex. tubo digestório, tubo neural
+\item
+  \textbf{Metameria}: É o princípio que afirma que o corpo é formado por estruturas sobrepostas. Ex. costelas, coluna vertebral.
+\item
+  \textbf{Estratigrafia} ou \textbf{Estratificação}: É o princípio que afirma que o corpo é formado por camadas.
+\end{enumerate}
+
+Referências
+
+1: SOUZA, Cláudia Maria. \textbf{Princípios de construção do corpo humano}. Anatomia Humana. Notas de aula (15/08/2022), Faculdade Três Marias, Paraíba 2022.
+
+\hypertarget{defina-quais-suxe3o-as-variauxe7uxf5es-anatuxf4micas-e-cite-exemplos}{%
+\subsubsection*{8) Defina quais são as variações anatômicas e cite exemplos}\label{defina-quais-suxe3o-as-variauxe7uxf5es-anatuxf4micas-e-cite-exemplos}}
+\addcontentsline{toc}{subsubsection}{8) Defina quais são as variações anatômicas e cite exemplos}
+
+Afirma Souza(2022) que todas as variações morfológicas são \textbf{congênitas}.
+
+Ainda segundo Souza(2022), os tipos de variações morfológicas são:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Variação Anatômica}: É a variação morfológica que não causa prejuízo para o funcionamento do corpo humano. É uma variação peculiar e pequena que não causa disfunção. Não há comprometimento funcional do órgão.
+\end{enumerate}
+
+\begin{quote}
+\textbf{Exemplos}:
+\textgreater{} * Destrocardia: Coração mais voltado para o lado direito.
+\textgreater{} * Fibras extranuméricas do músculo deltóide.
+\end{quote}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  \textbf{Anomalia}: É a variação morfológica que compromete funcionalmente o corpo humano.
+\end{enumerate}
+
+\begin{quote}
+\textbf{Exemplos}:
+\textgreater{} * Lábio leporino: Fenda, geralmente no lábio superior, que pode comprometer o palato (céu da boca) causando alterações respiratórias, alimentares e de fonação.
+\textgreater{} * Polidactilia: Dedos extranuméricos, nas mãos ou nos pés.
+\textgreater{} * Focomelia: A focomelia é uma anomalia congênita que impede a formação normal de braços e pernas. Caracteriza-se pela aproximação ou encurtamento dos membros do feto, tornando-os semelhantes aos de uma foca.
+\textgreater{} * Gêmeos siamesses
+\textgreater{} * compartilhado pela cabeça;
+\textgreater{} * compartilhado lateralmente;
+\textgreater{} * compartilhado anteriormente
+\end{quote}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  \textbf{Aberrações ou monstruosidades}: São variações morfológicas que prejudicam demasiadamente as funções corporais. São incompatíveis com a vida.
+\end{enumerate}
+
+\begin{quote}
+Exemplos:
+\textgreater{} * Anencéfalia
+\end{quote}
+
+Referências
+
+1: SOUZA, Cláudia Maria. \textbf{Variação morfológica}. Anatomia Humana. Notas de aula (15/08/2022), Faculdade Três Marias, Paraíba 2022.
+
+\hypertarget{cite-os-planos-de-secuxe7uxe3o-e-delimitauxe7uxe3o}{%
+\subsubsection*{9) Cite os planos de secção e delimitação}\label{cite-os-planos-de-secuxe7uxe3o-e-delimitauxe7uxe3o}}
+\addcontentsline{toc}{subsubsection}{9) Cite os planos de secção e delimitação}
+
+Conforme estudado em sala de aula (SOUZA, 2022) e de acordo com Marieb, Wilhelm e Mallat (2014, p.~7-9):
+
+\hypertarget{planos-de-secuxe7uxe3o-1}{%
+\paragraph{Planos de Secção}\label{planos-de-secuxe7uxe3o-1}}
+
+Figura 2 - Planos de Secção
+
+Realizam cortes imaginários. Originam os planos de delimitação. Pergunte-se onde o corte foi iniciado?
+
+\begin{itemize}
+\tightlist
+\item
+  Plano Sagital Mediano ( corte imaginário que divide em duas metades: lado direito e lado esquerdo)
+\item
+  Plano Coronal ou Frontal Média ( corte imaginário que divide em duas metades: lado anterior e lado posterior )
+\item
+  Plano Transversal ( corte imaginário que divide em duas metades: superior e inferior )
+\end{itemize}
+
+\hypertarget{planos-de-delimitauxe7uxe3o-1}{%
+\paragraph{Planos de Delimitação}\label{planos-de-delimitauxe7uxe3o-1}}
+
+São 6 lados. Um para cada lado do corpo e são originários dos \textbf{planos de seção}.
+
+\begin{itemize}
+\tightlist
+\item
+  Plano Anterior ou Plano Ventral
+\item
+  Plano Posterior ou Plano Dorsal
+\item
+  Plano Superior ou Plano Cefálico
+\item
+  Plano Inferior ou Plano Podálico
+\item
+  Plano Lateral Direito
+\item
+  Plano Lateral Esquerdo
+\end{itemize}
+
+Referências
+
+1: SOUZA, Cláudia Maria. \textbf{Planos de Seção e de delimitação}. Anatomia Humana. Notas de aula (08/08/2022), Faculdade Três Marias, Paraíba 2022.
+
+2: MARIEB, Elaine N.; WILHELM, Patricia Brady; MALLAT, Jon. \textbf{Anatomia Humana}. 7.ed. São Paulo:Pearson, 2014. p.~7-10
+
+\hypertarget{observauxe7uxf5es}{%
+\subparagraph{Observações}\label{observauxe7uxf5es}}
+
+\begin{quote}
+\textbf{Outro exemplo de questão de prova 1}: Os planos de secção dividem o corpo em quantas partes ?
+\textgreater{} \textbf{Resposta}: Duas. Sempre duas.
+\end{quote}
+
+\begin{quote}
+\textbf{IMPORTANTE}: Nas provas, a professora requer que sejam mencionados os planos de forma completa, juntamente com seus nomes alternativos.
+\textgreater{} \textbf{Exemplos 3.1}: Plano de delimitação anterior ou dorsal, Plano de delimitação posterior ou dorsal, Plano de delimitação superior ou cefálico, Plano de delimitação inferior ou podálico.
+\textgreater{} \textbf{Exemplos 3.2}: Plano de secção sagital anterior ou dorsal, Plano de secção coronal ou frontal média, Plano de secção transversal
+\end{quote}
+
+\begin{quote}
+Os planos são muito referenciados em exames de imagens
+\end{quote}
+
+Osteologia
+
+\hypertarget{o-que-uxe9-osteologia-qual-a-diferenuxe7a-entre-osteologia-e-esqueleto}{%
+\subsubsection*{10) O que é Osteologia? Qual a diferença entre Osteologia e esqueleto?}\label{o-que-uxe9-osteologia-qual-a-diferenuxe7a-entre-osteologia-e-esqueleto}}
+\addcontentsline{toc}{subsubsection}{10) O que é Osteologia? Qual a diferença entre Osteologia e esqueleto?}
+
+Segundo aprendemos por meio de Souza(2022), \textbf{Osteologia} é a ciência que estuda os ossos. Os ossos quando se articulam formam o esqueleto. O \textbf{esqueleto} é a junção dos ossos do corpo.
+
+Referências
+
+1: SOUZA, Cláudia Maria. \textbf{Osteologia}. Anatomia Humana. Notas de aula (15/08/2022), Faculdade Três Marias, Paraíba 2022.
+
+\hypertarget{quantos-osso-tem-o-corpo-humano}{%
+\subsubsection*{11) Quantos osso tem o corpo humano ?}\label{quantos-osso-tem-o-corpo-humano}}
+\addcontentsline{toc}{subsubsection}{11) Quantos osso tem o corpo humano ?}
+
+Conforme aprendemos por meio de Souza(2022), o corpo humano possui 206 ossos .
+
+Referências
+
+1: SOUZA, Cláudia Maria. \textbf{Osteologia}. Anatomia Humana. Notas de aula (15/08/2022), Faculdade Três Marias, Paraíba 2022.
+
+\hypertarget{como-o-esqueleto-humano-uxe9-dividido}{%
+\subsubsection*{12) Como o esqueleto humano é dividido ?}\label{como-o-esqueleto-humano-uxe9-dividido}}
+\addcontentsline{toc}{subsubsection}{12) Como o esqueleto humano é dividido ?}
+
+Relembrando o que aprendemos com Souza(2022) em sala de aula, o esqueleto é dividido em:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Esqueleto Axial}: Ossos localizados no centro do corpo.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Cabeça
+  \item
+    Pescoço
+  \item
+    Tronco
+  \end{itemize}
+\item
+  \textbf{Esqueleto Apendicular}: Ossos dos membros superiores e inferiores com suas raízes.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Membros Superiores
+
+    \begin{itemize}
+    \tightlist
+    \item
+      As raizes dos membros superiores: Duas Clavículas e Duas Escápulas
+    \end{itemize}
+  \item
+    Membros Inferior
+
+    \begin{itemize}
+    \tightlist
+    \item
+      As raízes dos membros inferiores: Dois Ossos do Quadril ( Ilíaco Direito e Ilíaco Esquerdo)
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+Referências
+
+1: SOUZA, Cláudia Maria. \textbf{Osteologia}. Anatomia Humana. Notas de aula (15/08/2022), Faculdade Três Marias, Paraíba 2022.
+
+\hypertarget{cite-o-nome-dos-ossos-da-muxe3o-na-ordem}{%
+\subsubsection*{13) Cite o nome dos ossos da mão ( na ordem )}\label{cite-o-nome-dos-ossos-da-muxe3o-na-ordem}}
+\addcontentsline{toc}{subsubsection}{13) Cite o nome dos ossos da mão ( na ordem )}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{CUIDADO NA PROVA}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{MÃOS}: Enumerar os ossos do metacarpo e das falanges dos dedos da mão, em números ROMANOS, do dedo polegar (MAIS LATERAL) para o dedo mínimo (veja posição anatômica, posição da mão aberta com palmas voltadas para o plano frontal).
+  \item
+    \textbf{PÉS}: Enumerar os ossos do metatarpo e das falanges dos dedos dos pés, em números ROMANOS, do dedo polegar (MAIS MEDIANO) para o dedo mínimo.
+  \end{itemize}
+\end{itemize}
+
+Conforme aprendemos através de Souza (2022), do mais proximal ao mais distal e do mais lateral para o mais mediano, temos:
+
+\begin{itemize}
+\tightlist
+\item
+  Ossos do \textbf{Carpo}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Primeira sequência de ossos
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Escafóite
+    \item
+      Semilunar
+    \end{itemize}
+  \item
+    Segunda sequência de ossos
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Trapézio
+    \item
+      Trapezóide
+    \item
+      Capitato
+    \item
+      Hamato
+    \item
+      Pisiforme
+    \item
+      Piramidal
+    \end{itemize}
+  \end{itemize}
+\item
+  Ossos do \textbf{Metacarpo}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    I metacarpo
+  \item
+    II Metacarpo
+  \item
+    III Metacarpo
+  \item
+    IV Metacarpo
+  \item
+    V Metacarpo
+  \end{itemize}
+\item
+  Ossos dos \textbf{Dedos das mãos}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    I Falange
+
+    \begin{itemize}
+    \tightlist
+    \item
+      I Falange Proximal
+    \item
+      I Falange Distal
+    \end{itemize}
+  \item
+    II Falange
+
+    \begin{itemize}
+    \tightlist
+    \item
+      II Falange Proximal
+    \item
+      II Falange Média
+    \item
+      II Falange Distal
+    \end{itemize}
+  \item
+    III Falange
+
+    \begin{itemize}
+    \tightlist
+    \item
+      III Falange Proximal
+    \item
+      III Falange Média
+    \item
+      III Falange Distal
+    \end{itemize}
+  \item
+    IV Falange
+
+    \begin{itemize}
+    \tightlist
+    \item
+      IV Falange Proximal
+    \item
+      IV Falange Média
+    \item
+      IV Falange Distal
+    \end{itemize}
+  \item
+    V Falange
+
+    \begin{itemize}
+    \tightlist
+    \item
+      V Falange Proximal
+    \item
+      V Falange Média
+    \item
+      V Falange Distal
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+Figura X - Membros Superiores: Ossos da mão
+
+Referências
+
+1: SOUZA, Cláudia Maria. \textbf{Osteologia}. Anatomia Humana. Notas de aula (22/08/2022), Faculdade Três Marias, Paraíba 2022.
+
+\hypertarget{cite-o-nome-dos-ossos-dos-puxe9s-na-ordem}{%
+\subsubsection*{14) Cite o nome dos ossos dos pés ( na ordem )}\label{cite-o-nome-dos-ossos-dos-puxe9s-na-ordem}}
+\addcontentsline{toc}{subsubsection}{14) Cite o nome dos ossos dos pés ( na ordem )}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{CUIDADO NA PROVA}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{MÃOS}: Enumerar os ossos do metacarpo e das falanges dos dedos da mão, em números ROMANOS, do dedo polegar (MAIS LATERAL) para o dedo mínimo (veja posição anatômica, posição da mão aberta com palmas voltadas para o plano frontal).
+  \item
+    \textbf{PÉS}: Enumerar os ossos do metatarpo e das falanges dos dedos dos pés, em números ROMANOS, do dedo polegar (MAIS MEDIANO) para o dedo mínimo.
+  \end{itemize}
+\end{itemize}
+
+Conforme aprendemos através de Souza (2022), do mais \textbf{proximal} ao mais \textbf{distal} e do mais \textbf{lateral} para o mais \textbf{mediano}, temos:
+
+\begin{itemize}
+\tightlist
+\item
+  Ossos do \textbf{Tarso}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Primeira sequência de ossos
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Calcâneo
+    \item
+      Tálus
+    \end{itemize}
+  \item
+    Segunda sequência de ossos
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Cubóide
+    \item
+      Navicular
+    \item
+      Cuneiforme Lateral
+    \item
+      Cuneiforme Intermédio
+    \item
+      Cuneiforme Medial
+    \end{itemize}
+  \end{itemize}
+\item
+  Ossos do \textbf{Metatarso}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    I Metatarso
+  \item
+    II Metatarso
+  \item
+    III Metatarso
+  \item
+    IV Metatarso
+  \item
+    V Metatarso
+  \end{itemize}
+\item
+  Ossos dos \textbf{Dedos dos pés} ( Pododáctilos )
+
+  \begin{itemize}
+  \tightlist
+  \item
+    I Falange
+
+    \begin{itemize}
+    \tightlist
+    \item
+      I Falange Proximal
+    \item
+      I Falange Distal
+    \end{itemize}
+  \item
+    II Falange
+
+    \begin{itemize}
+    \tightlist
+    \item
+      II Falange Proximal
+    \item
+      II Falange Média
+    \item
+      II Falange Distal
+    \end{itemize}
+  \item
+    III Falange
+
+    \begin{itemize}
+    \tightlist
+    \item
+      III Falange Proximal
+    \item
+      III Falange Média
+    \item
+      III Falange Distal
+    \end{itemize}
+  \item
+    IV Falange
+
+    \begin{itemize}
+    \tightlist
+    \item
+      IV Falange Proximal
+    \item
+      IV Falange Média
+    \item
+      IV Falange Distal
+    \end{itemize}
+  \item
+    V Falange
+
+    \begin{itemize}
+    \tightlist
+    \item
+      V Falange Proximal
+    \item
+      V Falange Média
+    \item
+      V Falange Distal
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule()
+\endhead
+& \\
+\bottomrule()
+\end{longtable}
+
+Figura - Ossos do pé
+
+Referências
+
+1: SOUZA, Cláudia Maria. \textbf{Osteologia}. Anatomia Humana. Notas de aula (22/08/2022), Faculdade Três Marias, Paraíba 2022.
+
+\hypertarget{cite-as-divisuxf5es-regiuxf5es-coluna-vertebral-e-a-quantidade-de-ossos}{%
+\subsubsection*{15) Cite as divisões (regiões) Coluna Vertebral e a quantidade de ossos}\label{cite-as-divisuxf5es-regiuxf5es-coluna-vertebral-e-a-quantidade-de-ossos}}
+\addcontentsline{toc}{subsubsection}{15) Cite as divisões (regiões) Coluna Vertebral e a quantidade de ossos}
+
+De acordo com o que foi lecionado em sala de aula por Souza(2022), a coluna vertebral é dividida em 05 regiões, com um total de 26 ossos.
+
+\hypertarget{regiuxe3o-cervical}{%
+\subsubsection{Região Cervical}\label{regiuxe3o-cervical}}
+
+\begin{itemize}
+\tightlist
+\item
+  07 Vértebras ( I a VII )
+\end{itemize}
+
+\hypertarget{regiuxe3o-dorsal-ou-toruxe1xica}{%
+\subsubsection{Região Dorsal ou Toráxica}\label{regiuxe3o-dorsal-ou-toruxe1xica}}
+
+\begin{itemize}
+\tightlist
+\item
+  12 Vértebras ( VIII a XIX )
+\end{itemize}
+
+\hypertarget{regiuxe3o-lombar}{%
+\subsubsection{Região Lombar}\label{regiuxe3o-lombar}}
+
+\begin{itemize}
+\tightlist
+\item
+  05 Vértebras ( XX a XXIV )
+\end{itemize}
+
+\hypertarget{regiuxe3o-sacral}{%
+\subsubsection{Região Sacral}\label{regiuxe3o-sacral}}
+
+\begin{itemize}
+\tightlist
+\item
+  Osso Sacral
+\end{itemize}
+
+\hypertarget{regiuxe3o-coccigeana}{%
+\subsubsection{Região Coccigeana}\label{regiuxe3o-coccigeana}}
+
+\begin{itemize}
+\tightlist
+\item
+  Osso Cóccix
+\end{itemize}
+
+Referências
+
+1: SOUZA, Cláudia Maria. \textbf{Osteologia}. Anatomia Humana. Notas de aula (22/08/2022), Faculdade Três Marias, Paraíba 2022.
+
+Sistema Muscular
+
+\hypertarget{o-que-uxe9-miologia}{%
+\subsubsection*{16) O que é miologia ?}\label{o-que-uxe9-miologia}}
+\addcontentsline{toc}{subsubsection}{16) O que é miologia ?}
+
+É o estudo dos músculos.
+
+\hypertarget{como-se-classificam-os-muxfasculos}{%
+\subsubsection*{17) Como se classificam os músculos ?}\label{como-se-classificam-os-muxfasculos}}
+\addcontentsline{toc}{subsubsection}{17) Como se classificam os músculos ?}
+
+\begin{itemize}
+\tightlist
+\item
+  Os músculos classificam-se em três tipos: \textbf{lisos}, \textbf{estriados}(involuntários) e \textbf{esqueléticos} (voluntários).
+
+  \begin{itemize}
+  \tightlist
+  \item
+    O \textbf{músculo estriado esquelético} realiza contração rápida e vigorosa. É voluntário, ou seja, sua ação depende da nossa vontade.
+  \item
+    O \textbf{músculo estriado cardíaco} é um músculo especializado, presente apenas no coração. Sua ação de contração é rápida, rítmica e contínua. Ele não para. Toda a musculatura cardíaca é músculo estriado cardíaco. E, apesar de ser músculo estriado, é \textbf{involuntário}.
+  \item
+    O \textbf{tecido muscular liso} é um músculo involuntário. Está presente principalmente na parede de órgãos, como útero, bexiga, trato gastrointestinal, vasos sanguíneos, bronquíolos, entre outros. Assim como o anterior, ser involuntário é uma característica funcional muito importante
+  \end{itemize}
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{quote}
+\textbf{Orientação da Professora para Prova}: Para prova, o aluno deverá memorizar o (1) \textbf{nome do músculo} e a (2) \textbf{localização} dele.
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{cite-alguns-muxfasculos-encontrados-da-face}{%
+\subsubsection*{18) Cite alguns músculos encontrados da face}\label{cite-alguns-muxfasculos-encontrados-da-face}}
+\addcontentsline{toc}{subsubsection}{18) Cite alguns músculos encontrados da face}
+
+Figura X - Músculos da Face
+
+\begin{itemize}
+\tightlist
+\item
+  Músculo Orbicular dos olhos
+\item
+  Músculo Orbicular da boca ( ou dos lábios )
+\item
+  Músculo Masseter ( o músculo da mastigação
+\item
+  Músculo Risório
+\item
+  Músculo Bussinador
+\item
+  Músculo Nasal
+\end{itemize}
+
+\hypertarget{cite-alguns-muxfasculos-encontrados-no-pescouxe7o}{%
+\subsubsection*{19) Cite alguns músculos encontrados no pescoço}\label{cite-alguns-muxfasculos-encontrados-no-pescouxe7o}}
+\addcontentsline{toc}{subsubsection}{19) Cite alguns músculos encontrados no pescoço}
+
+Figura X - Músculos do pescoço
+
+\begin{itemize}
+\tightlist
+\item
+  Músculo Esternocleidomastóideo
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Origina-se no osso esterno;
+  \item
+    Passa pela lateral do pescoço;
+  \item
+    Termina no processo mastóide do osso temporal
+  \end{itemize}
+\item
+  Músculo escaleno anterior
+\item
+  Músculo escaleno médio
+\item
+  Músculo escaleno posterior
+\item
+  Músculo Trapézio
+\end{itemize}
+
+\hypertarget{qual-muxfasculo-origina-se-no-osso-esterno-e-fixa-se-no-osso-temporal}{%
+\subsubsection*{20) Qual músculo origina-se no osso esterno e fixa-se no osso temporal ?}\label{qual-muxfasculo-origina-se-no-osso-esterno-e-fixa-se-no-osso-temporal}}
+\addcontentsline{toc}{subsubsection}{20) Qual músculo origina-se no osso esterno e fixa-se no osso temporal ?}
+
+Músculo Esternocleidomastóideo
+* Origina-se no osso esterno;
+* Passa pela lateral do pescoço;
+* Termina no processo mastóide do osso temporal
+
+\hypertarget{muxfasculos-do-brauxe7o-2}{%
+\subsubsection*{21) Músculos do braço}\label{muxfasculos-do-brauxe7o-2}}
+\addcontentsline{toc}{subsubsection}{21) Músculos do braço}
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5185}}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4815}}@{}}
+\toprule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\hypertarget{cite-um-muxfasculo-encontrado-no-ombro}{%
+\subsubsection*{22) Cite um músculo encontrado no ombro}\label{cite-um-muxfasculo-encontrado-no-ombro}}
+\addcontentsline{toc}{subsubsection}{22) Cite um músculo encontrado no ombro}
+
+\begin{itemize}
+\tightlist
+\item
+  Deltóide
+\end{itemize}
+
+\begin{quote}
+\textbf{Observação}: Embora não tenha escutado menção aos músculos abaixo, vou mencioná-los aqui:
+* Supraespinal
+* Infraespinal
+* Subescapular
+\end{quote}
+
+\hypertarget{cite-alguns-muxfasculos-encontrados-no-brauxe7o}{%
+\subsubsection*{23) Cite alguns músculos encontrados no braço}\label{cite-alguns-muxfasculos-encontrados-no-brauxe7o}}
+\addcontentsline{toc}{subsubsection}{23) Cite alguns músculos encontrados no braço}
+
+\begin{itemize}
+\tightlist
+\item
+  Bíceps Braquial
+\item
+  Braquial ( Abaixo do Bíceps Braquial )
+\item
+  Tríceps Braquial
+\end{itemize}
+
+\hypertarget{cite-alguns-muxfasculos-encontrados-no-brauxe7o-indicando-para-cada-um-o-tipo-do-movimento-que-ele-uxe9-responsuxe1vel}{%
+\subsubsection*{24) Cite alguns músculos encontrados no braço indicando para cada um o tipo do movimento que ele é responsável}\label{cite-alguns-muxfasculos-encontrados-no-brauxe7o-indicando-para-cada-um-o-tipo-do-movimento-que-ele-uxe9-responsuxe1vel}}
+\addcontentsline{toc}{subsubsection}{24) Cite alguns músculos encontrados no braço indicando para cada um o tipo do movimento que ele é responsável}
+
+\begin{itemize}
+\tightlist
+\item
+  Bíceps Braquial ( É um músculo flexor )
+\item
+  Tríceps Braquial ( É um músculo extensor )
+\end{itemize}
+
+\hypertarget{muxfasculos-do-antebrauxe7o-1}{%
+\paragraph{Músculos do Antebraço}\label{muxfasculos-do-antebrauxe7o-1}}
+
+\begin{quote}
+Não houve menção. Pelo menos que eu tenha ouvido.
+\end{quote}
+
+\hypertarget{muxfasculos-da-muxe3o-1}{%
+\paragraph{Músculos da Mão}\label{muxfasculos-da-muxe3o-1}}
+
+\begin{quote}
+Não houve menção. Pelo menos que eu tenha ouvido.
+\end{quote}
+
+\hypertarget{cite-alguns-muxfasculos-encontrados-no-tuxf3rax-indicando-qual-uxe9-externo-e-qual-uxe9-interno}{%
+\subsubsection*{25) Cite alguns músculos encontrados no tórax indicando qual é externo e qual é interno}\label{cite-alguns-muxfasculos-encontrados-no-tuxf3rax-indicando-qual-uxe9-externo-e-qual-uxe9-interno}}
+\addcontentsline{toc}{subsubsection}{25) Cite alguns músculos encontrados no tórax indicando qual é externo e qual é interno}
+
+\begin{itemize}
+\tightlist
+\item
+  Peitoral maior (externo)
+\item
+  Peitoral menor (interno)
+\end{itemize}
+
+\hypertarget{cite-alguns-muxfasculos-encontrados-no-abduxf4men}{%
+\subsubsection*{26) Cite alguns músculos encontrados no abdômen}\label{cite-alguns-muxfasculos-encontrados-no-abduxf4men}}
+\addcontentsline{toc}{subsubsection}{26) Cite alguns músculos encontrados no abdômen}
+
+\begin{itemize}
+\tightlist
+\item
+  Músculo Reto do Abdômen
+\item
+  Músculo Oblíquo Externo
+\item
+  Músculo Oblíquo Interno
+\item
+  Músculo Transverso
+\end{itemize}
+
+\hypertarget{muxfasculos-da-regiuxe3o-gluxfatea-indicando-qual-uxe9-externo-e-qual-uxe9-interno}{%
+\subsubsection*{27) Músculos da Região Glútea indicando qual é externo e qual é interno}\label{muxfasculos-da-regiuxe3o-gluxfatea-indicando-qual-uxe9-externo-e-qual-uxe9-interno}}
+\addcontentsline{toc}{subsubsection}{27) Músculos da Região Glútea indicando qual é externo e qual é interno}
+
+\begin{itemize}
+\tightlist
+\item
+  Músculo Glúteo Maior ( mais externo )
+\item
+  Músculo Glúteo Médio
+\item
+  Músculo Glúteo Menor ( mais interno )
+\end{itemize}
+
+\hypertarget{qual-o-menor-muxfasculo-no-homem-e-onde-ele-estuxe1-situado}{%
+\subsubsection*{28) Qual o menor músculo no homem e onde ele está situado?}\label{qual-o-menor-muxfasculo-no-homem-e-onde-ele-estuxe1-situado}}
+\addcontentsline{toc}{subsubsection}{28) Qual o menor músculo no homem e onde ele está situado?}
+
+\begin{itemize}
+\tightlist
+\item
+  Menor músculo \textbf{masculino} encontra-se \textbf{no testículo}.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Músculo Cremaster
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{qual-o-menor-muxfasculo-no-homem-e-onde-ele-estuxe1-situado-1}{%
+\subsubsection*{29) Qual o menor músculo no homem e onde ele está situado?}\label{qual-o-menor-muxfasculo-no-homem-e-onde-ele-estuxe1-situado-1}}
+\addcontentsline{toc}{subsubsection}{29) Qual o menor músculo no homem e onde ele está situado?}
+
+\begin{itemize}
+\tightlist
+\item
+  Menor músculo \textbf{feminino} encontra-se \textbf{na orelha}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Músculo Estapédio
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{qual-o-maior-muxfasculo-do-corpo-humano-e-em-que-parte-do-corpo-humano-ele-estuxe1-situado}{%
+\subsubsection*{30) Qual o maior músculo do corpo humano e em que parte do corpo humano ele está situado ?}\label{qual-o-maior-muxfasculo-do-corpo-humano-e-em-que-parte-do-corpo-humano-ele-estuxe1-situado}}
+\addcontentsline{toc}{subsubsection}{30) Qual o maior músculo do corpo humano e em que parte do corpo humano ele está situado ?}
+
+\begin{quote}
+Observação: Os maiores músculos do corpo estão situados na coxa.
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  Região Anterior da perna
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Músculo Sartório ( um músculo fino e longo )
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{quais-os-quatro-muxfasculos-que-compuxf5em-o-quadruxedceps-da-coxa-ou-femural}{%
+\subsubsection*{31) Quais os quatro músculos que compõem o Quadríceps da Coxa ou femural ?}\label{quais-os-quatro-muxfasculos-que-compuxf5em-o-quadruxedceps-da-coxa-ou-femural}}
+\addcontentsline{toc}{subsubsection}{31) Quais os quatro músculos que compõem o Quadríceps da Coxa ou femural ?}
+
+\begin{itemize}
+\tightlist
+\item
+  Músculo Quadríceps da Coxa ou femural ( É o nome que se dá a quatro músculos )
+  * Músculo Vasto medial
+  * Músculo Vasto intermédio
+  * Músculo Vasto lateral
+  * Músculo Retofemural
+\end{itemize}
+
+\hypertarget{cite-pelo-menos-dois-muxfasculos-anteriores-e-posteriores-situados-na-coxa}{%
+\subsubsection*{32) Cite, pelo menos, dois músculos anteriores e posteriores situados na coxa}\label{cite-pelo-menos-dois-muxfasculos-anteriores-e-posteriores-situados-na-coxa}}
+\addcontentsline{toc}{subsubsection}{32) Cite, pelo menos, dois músculos anteriores e posteriores situados na coxa}
+
+\begin{itemize}
+\tightlist
+\item
+  Região Anterior
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Músculo Sartório ( um músculo fino e longo )
+  \item
+    Músculo Quadríceps da Coxa ou femural ( É o nome que se dá a quatro músculos )
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Músculo Vasto medial
+    \item
+      Músculo Vasto intermédio
+    \item
+      Músculo Vasto lateral
+    \item
+      Músculo Retofemural
+    \end{itemize}
+  \end{itemize}
+\item
+  Região Posterior
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Músculo Bíceps Femural
+  \item
+    Músculo Semitendídeo
+  \item
+    Músculo Semimembranáceo
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{quais-muxfasculos-compuxf5em-o-muxfasculo-tricepsural-em-que-regiuxe3o-ele-se-encontra-e-como-ele-uxe9-como-vulgarmente-chamado}{%
+\subsubsection*{33) Quais músculos compõem o músculo Tricepsural, em que região ele se encontra e como ele é como vulgarmente chamado ?}\label{quais-muxfasculos-compuxf5em-o-muxfasculo-tricepsural-em-que-regiuxe3o-ele-se-encontra-e-como-ele-uxe9-como-vulgarmente-chamado}}
+\addcontentsline{toc}{subsubsection}{33) Quais músculos compõem o músculo Tricepsural, em que região ele se encontra e como ele é como vulgarmente chamado ?}
+
+\begin{itemize}
+\tightlist
+\item
+  O músculo Tricepsural, vulgarmente conhecido como panturrilha, encontra-se na região posterior da perna e é composto por:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Músculo Gastrocnêmio Medial
+  \item
+    Músculo Gastrocnêmio Lateral
+  \item
+    Músculo Sóleo ( dentro dos Gastrocnêmio Medial e Lateral )
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{cite-os-muxfasculos-da-perna}{%
+\subsubsection*{34) Cite os músculos da Perna}\label{cite-os-muxfasculos-da-perna}}
+\addcontentsline{toc}{subsubsection}{34) Cite os músculos da Perna}
+
+\begin{itemize}
+\tightlist
+\item
+  Região Posterior
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Músculo Tricepsural ( Panturilha - É o nome que se dá a três músculos )
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Músculo Gastrocnêmio Medial
+    \item
+      Músculo Gastrocnêmio Lateral
+    \item
+      Músculo Sóleo ( dentro dos Gastrocnêmio Medial e Lateral )
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+Referências:
+
+1: SOUZA, Cláudia Maria. \textbf{Aula de revisão}. Anatomia Humana. Notas de aula (05/09/2022), Faculdade Três Marias, Paraíba 2022.
+
+\hypertarget{formuluxe1rios-coletas-de-dados-e-planilhas}{%
+\chapter{Formulários, Coletas de Dados e Planilhas}\label{formuluxe1rios-coletas-de-dados-e-planilhas}}
+
+Neste capítulo estarão relacionados todos os Formulários, Coletas de Dados e Planilhas elaborados durante a disciplina.
+
+\hypertarget{formuluxe1rios}{%
+\section{Formulários}\label{formuluxe1rios}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+Data
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Formulário Criado
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Objetivo
+\end{minipage} \\
+\midrule()
+\endhead
+03/10/2022 & \href{https://bit.ly/3C2s6CJ}{1)Formulários de Opção de Horário para Aula de Anatomia em Laboratório} & - Formulário criado para que os alunos possam optar o horário em que desejam assistir a aula no laboratório de Anatomia, uma vez que o laboratório comporta, no máximo, 32 alunos. Os dados obtivos desse formulário são automaticamente salvos na \textbf{Planilha de Opção de Horário abaixo} \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{planilha-criada}{%
+\section{Planilha criada}\label{planilha-criada}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+Data
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Planilhas Criadas
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Objetivo
+\end{minipage} \\
+\midrule()
+\endhead
+03/10/2022 & \href{https://bit.ly/3Cw5bRJ}{1) Planilha de Respostas do formulário ``Opção de Horário para Aula de Anatomia em Laboratório''} & Os dados obtivos no formulário ``\textbf{Formulários de Opção de Horário para Aula de Anatomia em Laboratório}'' são salvos nessa planilha. Após passarem por triagem na primeira ABA da planilha, em caso de várias respostas consideramos a última, a resposta de opção de horário é APROVADA. Automaticamente a lista correspondente dos alunos que optaram pelo 1º horário (ABA 2) e que optaram pelo 2º horário (ABA 3) é preenchida. Conforme as opção vão sendo aprovadas, os alunos e a professora podem acompanhar a quantidade de vagas restanres \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{filmes-e-documentuxe1rios}{%
+\chapter{Filmes e Documentários}\label{filmes-e-documentuxe1rios}}
+
+Neste capítulo estarão relacionados os filmes e documentários que abordam temas estudados na disciplina.
+
+\hypertarget{filmes}{%
+\section{Filmes}\label{filmes}}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule()
+Data & Tópicos Abordados \\
+\midrule()
+\endhead
+dd/mm/aaaa & - Tópico 1- Tópico 2- Tópico 3 \\
+\bottomrule()
+\end{longtable}
+
+Em breve\ldots{}
+
+\hypertarget{documentuxe1rios}{%
+\section{Documentários}\label{documentuxe1rios}}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule()
+Data & Tópicos Abordados \\
+\midrule()
+\endhead
+dd/mm/aaaa & - Tópico 1- Tópico 2- Tópico 3 \\
+\bottomrule()
+\end{longtable}
+
+Em breve\ldots{}
+
+\hypertarget{jogos-criados-kahoots}{%
+\chapter{Jogos criados (Kahoots)}\label{jogos-criados-kahoots}}
+
+Neste capítulo estarão relacionados os jogos criados que possuem relação com temas estudados na disciplina.
+
+Em breve\ldots{}
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule()
+Data & Descrição & Link para o Kahoot \\
+\midrule()
+\endhead
+dd/mm/aaaa & - Tópico 1- Tópico 2- Tópico 3 & Clique aqui \\
+dd/mm/aaaa & - Tópico 1- Tópico 2- Tópico 3 & Clique aqui \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{outros-materiais}{%
+\chapter{Outros Materiais}\label{outros-materiais}}
+
+Neste capítulo estarão relacionados outros materiais que possuem relação com temas estudados na disciplina.
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule()
+Data & Descrição \\
+\midrule()
+\endhead
+dd/mm/aaaa & - Tópico 1- Tópico 2- Tópico 3 \\
+dd/mm/aaaa & - Tópico 1- Tópico 2- Tópico 3 \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{tuxf3pico-1}{%
+\section{Tópico 1}\label{tuxf3pico-1}}
+
+Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+
+\hypertarget{tuxf3pico-2}{%
+\section{Tópico 2}\label{tuxf3pico-2}}
+
+Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+
+\hypertarget{tuxf3pico-3}{%
+\section{Tópico 3}\label{tuxf3pico-3}}
+
+Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+
+\begin{itemize}
+\tightlist
+\item
+\end{itemize}
+
+  \bibliography{referencias.bib,packages.bib}
+
+\end{document}
