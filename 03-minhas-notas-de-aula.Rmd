@@ -2,9 +2,7 @@
 
 Neste capítulo estarão contidas todas as minhas notas de aula da disciplina.
 
-## Vídeos Disponibilizados
-
-Os vídeos para prova prática foram disponibilizados pela professora no grupo de whatsapp da disciplina e compilados em uma pasta virtual no Onedrive no link: https://1drv.ms/u/s!Au-CrfNP6c0bha15wnMffwLPUbuLJQ?e=88YJL1
+Todos os **VIDEOS** disponibilizados pela professora estão no [capítulo 13](#cap-outros-materiais) deste livro ( Outros materias ). \@ref(cap-outros-materiais)
 
 ## Nota de Aula nº 01
 
@@ -52,10 +50,9 @@ Neste dia @PROF-SOUSA-2022 tratou sobre os assuntos a seguir. Adicionalmente, re
         * Metatarso
         * Dedos dos pés
 
-<p align="center"> 
-<img height="550" width="550" src="https://live.staticflickr.com/65535/52279126295_8d3ef48efe_o_d.png"></img><br>
-<b>Figura 1</b> - Posição Anatômica e Termos Regionais [^2]
-</p>
+```{r echo=FALSE, fig.show="hold", out.width="90%", fig.align = "center", fig.cap="Posição Anatômica e Termos Regionais"}
+knitr::include_graphics("figuras/Aula2-1-posicao-anatômica-e-termos-regionais.png")
+```
 
 ### Abreviações Diversas
 
@@ -92,10 +89,9 @@ Neste dia @PROF-SOUSA-2022 tratou sobre os assuntos a seguir. Adicionalmente, re
 
 #### Planos de Secção {-}
 
-<p align="center"> 
-<img height="550" width="550" src="https://live.staticflickr.com/65535/52273035503_db2c2f27e2_o_d.png"></img><br>
-<b>Figura 2</b> - Planos de Secção
-</p>
+```{r echo=FALSE, fig.show="hold", out.width="90%", fig.align = "center", fig.cap="Planos de Secção"}
+knitr::include_graphics("figuras/Aula2-2 - Planos de Seccao.png")
+```
 
  Realizam cortes imaginários. Originam os <amarelo>planos de delimitação</amarelo>. Pergunte-se onde o corte foi iniciado?
  
@@ -162,19 +158,17 @@ São 6 lados. Um para cada lado do corpo e são originários dos **planos de se�
 * Termos de Posição ( veja aula 08.08.2022 )
 * Termos de Direção
 
-> Obs: falou !? :confused:
-
 ### Variação Morfológica
 
 Todas as variações morfológicas são **congênitas**. Os tipos de variações morfológicas são:
 
-1. **Variação Anatômica**: É a variação morfológica que ==não causa prejuízo para o funcionamento== do corpo humano. É uma variação peculiar e pequena que não causa disfunção. Não há comprometimento funcional do órgão.
+1. **Variação Anatômica**: É a variação morfológica que <amarelo>não causa prejuízo para o funcionamento<amarelo> do corpo humano. É uma variação peculiar e pequena que não causa disfunção. Não há comprometimento funcional do órgão.
 
 > **Exemplos**: 
 > > * Destrocardia: Coração mais voltado para o lado direito.
 > > * Fibras extranuméricas do músculo deltóide.
 
-2. **Anomalia**: É a variação morfológica que ==compromete funcionalmente== o corpo humano.
+2. **Anomalia**: É a variação morfológica que <amarelo>compromete funcionalmente<amarelo> o corpo humano.
 
 > **Exemplos**:
 > > * Lábio leporino: Fenda, geralmente no lábio superior, que pode comprometer o palato (céu da boca) causando alterações respiratórias, alimentares e de fonação.
@@ -185,7 +179,7 @@ Todas as variações morfológicas são **congênitas**. Os tipos de variações
 > >   * compartilhado lateralmente;
 > >   * compartilhado anteriormente
 
-3. **Aberrações ou monstruosidades**: São variações morfológicas que ==prejudicam demasiadamente== as funções corporais. São ==incompatíveis com a vida==.
+3. **Aberrações ou monstruosidades**: São variações morfológicas que <amarelo>prejudicam demasiadamente<amarelo> as funções corporais. São <amarelo>incompatíveis com a vida<amarelo>.
 
 > Exemplos:
 > > * Anencéfalia
@@ -196,10 +190,10 @@ Todas as variações morfológicas são **congênitas**. Os tipos de variações
 
 São quatro os princípios de construção do corpo humano:
 
-1. **Antimeria**: É o princípio que afirma que o corpo é formado por ==antímeros (metades semelhantes)==. O antímero direito é semelhante/parecido com o antímero esquerdo.
-2. **Paquimeria**: É o princípio que afirma que o corpo é formado por ==tubos==. Ex. tubo digestório, tubo neural
-3. **Metameria**: É o princípio que afirma que o corpo é formado por ==estruturas sobrepostas==. Ex. costelas, coluna vertebral.
-4. **Estratigrafia** ou **Estratificação**: É o princípio que afirma que o corpo é formado por ==camadas==.
+1. **Antimeria**: É o princípio que afirma que o corpo é formado por <amarelo>antímeros (metades semelhantes)<amarelo>. O antímero direito é semelhante/parecido com o antímero esquerdo.
+2. **Paquimeria**: É o princípio que afirma que o corpo é formado por <amarelo>tubos<amarelo>. Ex. tubo digestório, tubo neural
+3. **Metameria**: É o princípio que afirma que o corpo é formado por <amarelo>estruturas sobrepostas<amarelo>. Ex. costelas, coluna vertebral.
+4. **Estratigrafia** ou **Estratificação**: É o princípio que afirma que o corpo é formado por <amarelo>camadas<amarelo>.
 
 ### Osteologia
 
@@ -282,10 +276,9 @@ O esqueleto é dividido:
 
 ### Membros Superiores
 
-<p align="center"> 
-<img height="750" width="680" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.yXIYZfNyw5rLazA10bh0NAHaJ8%26pid%3DApi&f=1"></img><br>
-<b>Figura X</b> - Membros Superiores
-</p>
+```{r echo=FALSE, fig.show="hold", out.width="90%", fig.align = "center", fig.cap="Ossos do Braço"}
+knitr::include_graphics("figuras/Aula4-1-Ossos-do-braco.jpeg")
+```
 
 * Raiz
 	* Clavícula (2)
@@ -293,10 +286,10 @@ O esqueleto é dividido:
 * Braço
 	* Úmero (2)
 * Antebraço
-	* Rádio (2 **==laterais==**)
+	* Rádio (2 **<amarelo>laterais<amarelo>**)
 	* Ulna (2 mediais)
 * Mão
-	* ==Carpo== 
+	* <amarelo>Carpo<amarelo> 
 		* Mais Proximal ( De fora para dentro )
 			* Escafóide
 			* Semilunar
@@ -307,7 +300,7 @@ O esqueleto é dividido:
 			* Hamato
 			* Piramidal
 			* Pisiforme
-	* ==Metacarpo==
+	* <amarelo>Metacarpo<amarelo>
 		* 1º, 2º, 3º, 4º e 5º metatarso (  de fora para dentro )
 	* Falanges
 		* 1º Falange (2 - polegar é mais distal)
@@ -318,18 +311,16 @@ O esqueleto é dividido:
 			* Falange média
 			* Falange distal   
 
-<p align="center"> 
-<img height="750" width="680" src="https://files.passeidireto.com/22536456-0be2-4948-af62-602ab86fbca6/22536456-0be2-4948-af62-602ab86fbca6.jpeg"></img><br>
-<b>Figura X</b> - Membros Superiores: Ossos da mão
-</p>
+```{r echo=FALSE, fig.show="hold", out.width="90%", fig.align = "center", fig.cap="Ossos da Mão"}
+knitr::include_graphics("figuras/Aula4-2-ossos-da-mao.jpeg")
+```
 
 ### Membros Inferiores
 
-|||
-|:--|:--|
-|<img height="550" width="680" src="http://www.anatomiaemfoco.com.br/wp-content/uploads/2018/11/ossos-do-p%C3%A9.jpg"></img>|<img height="550" width="680" src="https://live.staticflickr.com/65535/52338896305_20bd34dd41_o_d.jpg"></img>|
-
-<p align="center"> <b>Figura</b> - Ossos do pé </p>
+```{r echo=FALSE, fig.show="hold", out.width="50%", fig.align = "center", fig.cap="Ossos do Pé"}
+knitr::include_graphics("figuras/Aula4-3a-ossos-do-pe.jpeg")
+knitr::include_graphics("figuras/Aula4-3b-ossos-do-pe.jpg")
+```
 
 * Raiz
 	* Osso do Quadril ou Osso Ilíaco
@@ -385,17 +376,19 @@ São articulações imóveis. Os ossos se encontram, mas não se movimentam. O n
 	* Articulação Temporoparietal (2)
 	* Articulação Interparietal
 	* Articulação Internasal
-	* Articulação ==incudomalear (Entre os ossos martelo e bigorda )==
-	* Articulação ==incudoestapedial (Entre os ossos bigorna e estribo)==
+	* Articulação <amarelo>incudomalear (Entre os ossos martelo e bigorda )<amarelo>
+	* Articulação <amarelo>incudoestapedial (Entre os ossos bigorna e estribo)<amarelo>
 
-|<p align="center"><img height="550" width="850" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Auditory_ossicles-en.svg/250px-Auditory_ossicles-en.svg.png"></img><br><b>Figura X</b>- Nome das Articulações</p>| <p align="center"><img height="550" width="850" src="https://i.pinimg.com/736x/36/ae/cc/36aecc0f0dc69bfea8deaae10cd0d468.jpg"></img><br><b>Figura X</b> - Ossos Envolvidos</p>|
-|:------------:|:-----------:|
+```{r echo=FALSE, fig.show="hold", out.width="90%", fig.align = "center", fig.cap="Ossos do Aparelho Auditivo"}
+knitr::include_graphics("figuras/Aula5-1-ossos-do-aparelho-auditivo.png")
+knitr::include_graphics("figuras/Aula5-2-ossos-do-aparelho-audivo.jpeg")
+```
 
 #### Anfiartrose
 
-* São as articulações semimóveis. Todas as articulações desse tipo possuem um **disco verdadeiro** ou um **disco falso**(==pseudodisco==).
+* São as articulações semimóveis. Todas as articulações desse tipo possuem um **disco verdadeiro** ou um **disco falso**(<amarelo>pseudodisco<amarelo>).
 * **Discos verdadeiros** tem realmente a função de amortecer impactos. Exemplo: Articulação intercorpovertebral 
-* **Discos falsos** (==pseudodisco==) não tem a função de amorcecer impactos.
+* **Discos falsos** (<amarelo>pseudodisco<amarelo>) não tem a função de amorcecer impactos.
 
 	* Exemplos de Anfiartroses:
 		* Articulação intercorpovertebral ( Articulação entre duas vértebras e o disco intervertebral que forma um disco verdadeiro, ou seja, que realmente tem a função de amortecer impactos )
@@ -422,21 +415,20 @@ São articulações imóveis. Os ossos se encontram, mas não se movimentam. O n
 
 Miologia é o estudo dos músculos.
 
-> ==**Orientação da Professora para Prova**: Para prova, o aluno deverá memorizar o (1) **nome do músculo** e a (2) **localização** dele==.
+> <amarelo>**Orientação da Professora para Prova**: Para prova, o aluno deverá memorizar o (1) **nome do músculo** e a (2) **localização** dele<amarelo>.
 
 #### Classificação
 
 * Os músculos classificam-se em três tipos: **lisos**, **estriados**(involuntários) e **esqueléticos** (voluntários).
 	* O **músculo estriado esquelético** realiza contração rápida e vigorosa. É voluntário, ou seja, sua ação depende da nossa vontade.
-	* O **músculo estriado cardíaco** é um músculo especializado, presente apenas no coração. Sua ação de contração é rápida, rítmica e contínua. Ele não para. Toda a musculatura cardíaca é músculo estriado cardíaco. E, ==apesar de ser músculo estriado, é **involuntário**==.
+	* O **músculo estriado cardíaco** é um músculo especializado, presente apenas no coração. Sua ação de contração é rápida, rítmica e contínua. Ele não para. Toda a musculatura cardíaca é músculo estriado cardíaco. E, <amarelo>apesar de ser músculo estriado, é **involuntário**<amarelo>.
 	* O **tecido muscular liso** é um músculo involuntário. Está presente principalmente na parede de órgãos, como útero, bexiga, trato gastrointestinal, vasos sanguíneos, bronquíolos, entre outros. Assim como o anterior, ser involuntário é uma característica funcional muito importante
 
 #### Músculos da Face
 
-<p align="center"> 
-<img height="550" width="850" src="https://i.pinimg.com/originals/eb/f2/46/ebf2461bc5cf54800081d1e643a1d273.jpg"></img><br>
-<b>Figura X</b> - Músculos da Face
-</p>
+```{r echo=FALSE, fig.show="hold", out.width="90%", fig.align = "center", fig.cap="Músculos da Face"}
+knitr::include_graphics("figuras/Aula5-3-musculos-da-face.jpeg")
+```
 
 * Músculo Orbicular dos olhos
 * Músculo Orbicular da boca ( ou dos lábios )
@@ -447,10 +439,9 @@ Miologia é o estudo dos músculos.
 
 #### Músculos do Pescoço
 
-<p align="center"> 
-<img height="550" width="850" src="https://i.pinimg.com/originals/45/e5/74/45e5749b3d9a0fe5ec63d24cab5c0dda.jpg"></img><br>
-<b>Figura X</b> - Músculos do pescoço
-</p>
+```{r echo=FALSE, fig.show="hold", out.width="90%", fig.align = "center", fig.cap="Músculos do pescoço"}
+knitr::include_graphics("figuras/Aula5-5-musculos-do-pescoco.jpeg")
+```
 
 * Músculo Esternocleidomastóideo
 	* Origina-se no osso esterno;
@@ -463,8 +454,10 @@ Miologia é o estudo dos músculos.
 
 #### Músculos do Braço
 
-|<p align="center"><img height="550" width="850" src="https://live.staticflickr.com/65535/52322412613_0f8ebc3695_o_d.png"></img><br><b>Figura X</b> - Músculos do Ombro e Braço</p>| <p align="center"><img height="550" width="850" src="https://live.staticflickr.com/65535/52321293597_362ca2f3ee_o_d.png"></img><br><b>Figura X</b> - Músculos do Antebraço</p>|
-|:------------:|:-----------:|
+```{r echo=FALSE, fig.show="hold", out.width="50%", fig.align = "center", fig.cap="Músculos dos Membros Superiores"}
+knitr::include_graphics("figuras/Aula5-4-musculos-do-ombro-e-braco.png")
+knitr::include_graphics("figuras/Aula5-6-musculos-do-antebraco.png")
+```
 
 #### Músculos do Ombro
 
@@ -504,6 +497,10 @@ Miologia é o estudo dos músculos.
 <img height="450" width="750" src="https://live.staticflickr.com/65535/52351986912_fcc8df3270_o_d.jpg"></img><br>
 <b>Figura X</b> - Músculos do Abdome | Abdômen
 </p>
+
+```{r echo=FALSE, fig.show="hold", out.width="90%", fig.align = "center", fig.cap="Músculos do Abdome"}
+knitr::include_graphics("figuras/Aula5-7-musculos-do-abdome.jpg")
+```
 
 * Músculo Reto do Abdômen
 * Músculo Oblíquo Externo ( mais externo )
@@ -571,6 +568,10 @@ Miologia é o estudo dos músculos.
 <b>Figura</b> - Estrutura do Neurônio
 </p>
 
+```{r echo=FALSE, fig.show="hold", out.width="90%", fig.align = "center", fig.cap="Neurônio"}
+knitr::include_graphics("figuras/Aula6-1-neuronio.jpg")
+```
+
 #### Anotações iniciais
 
 * Temos aproximadamente 100 bilhões de neurônios, mas usamos aproximadamente 75% deles, o resto está dormindo e pode ser ativado a qualquer momento.
@@ -619,6 +620,10 @@ nervoso
 <img height="750" width="650" src="https://live.staticflickr.com/65535/52370420672_873d13bcb9_b_d.jpg"></img><br>
 <b>Figura</b> - A Medula Espinhal
 </p>
+
+```{r echo=FALSE, fig.show="hold", out.width="90%", fig.align = "center", fig.cap="A Medula Espinhal"}
+knitr::include_graphics("figuras/Aula6-2-medula-espinhal.jpg")
+```
 
 #### Nervos e terminações nervosas
 
@@ -743,10 +748,9 @@ XII. Hipoglosso (mexer a língua
 
 ### Sistema Circulatório
 
-<p align="center"> 
-<img height="350" width="450" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Heart_tee_four_chamber_view.jpg/375px-Heart_tee_four_chamber_view.jpg"></img><br>
-<b>Figura</b> - Coração
-</p>
+```{r echo=FALSE, fig.show="hold", out.width="90%", fig.align = "center", fig.cap="O Coração"}
+knitr::include_graphics("figuras/Aula7-1-o-coracao.jpg")
+```
 
 ### Anotações iniciais
 
@@ -799,10 +803,9 @@ Por questões hormonais:
 
 #### Configuração Interna
 
-<p align="center"> 
-<img height="350" width="450" src="https://upload.wikimedia.org/wikipedia/commons/2/21/Latidos.gif"></img><br>
-<b>Figura</b> - Bombeamento do Coração
-</p>
+```{r echo=FALSE, fig.show="hold", out.width="90%", fig.align = "center", fig.cap="Bombeamento do Coração"}
+knitr::include_graphics("figuras/Aula7-2-bombeamento-coracao.png")
+```
 
 * O coração possui 4 compartimentos
   * Dois ÁTRIOS
@@ -872,6 +875,10 @@ Por questões hormonais:
 <b>Figura</b> - Foto do Quadro - Esquema do Sistema Respiratório
 </p>
 
+```{r echo=FALSE, fig.show="hold", out.width="90%", fig.align = "center", fig.cap="Foto do Quadro - Esquema do Sistema Respiratório"}
+knitr::include_graphics("figuras/Aula8-1-esquema-do-sistema-respiratorio.jpg")
+```
+
 #### Nariz Interno ou Cavidade Nasal
 
 * **Vibrissas** (cílios ou pêlos) 
@@ -896,6 +903,10 @@ Por questões hormonais:
 <b>Figura</b> - Laringe
 </p>
 
+```{r echo=FALSE, fig.show="hold", out.width="90%", fig.align = "center", fig.cap="Laringe"}
+knitr::include_graphics("figuras/Aula8-2-laringe.jpg")
+```
+
 * Epiglote
   * É uma cartilagem da laringe
 * Glote
@@ -914,10 +925,9 @@ Por questões hormonais:
 
 #### Traquéia
 
-<p align="center"> 
-<img height="750" width="450" src="https://live.staticflickr.com/65535/52419459053_04bd2536f2_b_d.jpg"></img><br>
-<b>Figura</b> - Caixa Toráxica - Enfase na Traquéia
-</p>
+```{r echo=FALSE, fig.show="hold", out.width="90%", fig.align = "center", fig.cap="Caixa Toráxica - Enfase na Traquéia"}
+knitr::include_graphics("figuras/Aula8-3-caixa-toracica-enfase-traqueia.jpg")
+```
 
 * É um órgão tubular;
 * ANTERIORMENTE: 
@@ -938,10 +948,9 @@ Por questões hormonais:
 
 #### Pulmão
 
-<p align="center"> 
-<img height="750" width="450" src="https://live.staticflickr.com/65535/52419408285_f2fe036eaa_b_d.jpg"></img><br>
-<b>Figura</b> - Caixa Toráxica - Enfase na Traquéia
-</p>
+```{r echo=FALSE, fig.show="hold", out.width="90%", fig.align = "center", fig.cap="Caixa Toráxica - Enfase na Traquéia"}
+knitr::include_graphics("figuras/Aula8-3-caixa-toracica-enfase-traqueia.jpg")
+```
 
 * Fissuras: Divide o pulmão em COMPARTIMENTOS chamados de LOBOS (Superior, Médio e Inferior);
   * Pulmão Direito

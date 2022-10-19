@@ -18,20 +18,36 @@ lang: "pt-BR"
 
 <center><h2>ANATOMIA HUMANA</h2></center>
 
-```{r echo=FALSE, out.width="50%", fig.align = "center", fig.cap="Capa"}
+```{r echo=FALSE, fig.show="hold", out.width="50%", fig.align = "center", fig.cap="-"}
 knitr::include_graphics("figuras/LIVRO-GENERICO.jpeg")
 ```
 
-* Neste material, estão contidos:
+ ```{r Modelo de Diagrama, echo=FALSE, out.width="40%"}
+# DiagrammeR::grViz("
+# digraph box_and_circles {
+# # Powered by https://rich-iannone.github.io/DiagrammeR/
+# 
+# # Definir os nodos
+# node [shape = oval, penwidth=2.0, fontname=Helvetica]
+# A; B; C; D
+# 
+# # Estabelecer relação entre os nodos
+# A->B
+# 
+# }
+# ")
+ ```
+
+* Neste material, estarão contidos:
   * Minhas notas de aula;
-  * Notas de Aula de outros colegas disponibilizados para a turma
+  * Notas de Aula de outros colegas disponibilizados para a turma;
   * Resumos de capítulos de livros;
   * Resumos de apresentações(slides) da disciplina;
   * Resumos de outros colegas de sala disponibilizados para a turma;
   * Minhas apresentações(slides);
-    * Audience Q&A (Permite que o público das apresentação envie perguntas para o apresntador)
-    * Live Polls (Permite que o público das apresntações realize votações sobre os temas apresentados)
-    * Quiz (Permite que o público das apresentações participe de competições integrando-se e assimilando melhor os temas apresentados)
+    * Audience Q&A (Permite que o público das apresentação envie perguntas para o apresntador);
+    * Live Polls (Permite que o público das apresntações realize votações sobre os temas apresentados);
+    * Quiz (Permite que o público das apresentações participe de competições integrando-se e assimilando melhor os temas apresentados);
   * Exercício elaborados pelos professores, respondidos ou não em sala;
   * Questionários elaborados por mim antes das provas;
   * Formulários de pesquisa (Google Forms) elaborados por mim para atendimento de necessidades dos dos meus colegas de sala, dos professores ou da disciplina;
@@ -39,8 +55,9 @@ knitr::include_graphics("figuras/LIVRO-GENERICO.jpeg")
   * Planilhas elaboradas por mim elaboradas por mim para atendimento de necessidades dos dos meus colegas de sala, dos professores ou da disciplina;
   * Filmes recomendados;
   * Documentários recomendados;
-  * Jogos de aprendizado criados (Kahoots / Site principal: kahoot.com / Login do jogador: kahoot.it)
-  * Outros materiais elaborados e disponibilizados pelos professores e por mim.
+  * Jogos de aprendizado criados (Kahoots / Site principal: kahoot.com / Login do jogador: kahoot.it);
+  * Outros materiais elaborados e disponibilizados pelos professores e por mim;
+  * Perguntas Feitas Frequentemente (FAQ) a(o) professor(a) da disciplina;
 
 ## Professor(a)
 
@@ -58,12 +75,12 @@ Estudo do Histórico da Anatomia, Divisão do corpo humano, Nomenclatura Anatôm
 
 ## Competências e Habilidades
 
-* COMPETÊNCIAS
+* **COMPETÊNCIAS**
   * Conhecer cada ossos, cada articulação e cada músculo do corpo humano;
   * Relacionar as várias estruturas do corpo humano entre si;
   * Identificar cada estrutura dos vários sistemas e relacionar os seus comprometimentos com os processos patológicos;
   * Identificar as estruturas anatômicas dos vários Sistemas do corpo humano.
-* HABILIDADES
+* **HABILIDADES**
   * Relacionar a Anatomia Humana com outras disciplinas da saúde;
   * Descrever os sistemas do corpo humano;
   * Diferenciar as características anatômicas dos elementos que compõem os vários sistemas do corpo humano;
@@ -71,9 +88,9 @@ Estudo do Histórico da Anatomia, Divisão do corpo humano, Nomenclatura Anatôm
 
 ## Conteúdo Programático
 
-* Unidade I: Introdução à Anatomia. Osteologia. Artrologia. Miologia
-* Unidade II: Sistema Nervoso. Sistema Cardiovascular. Sistema Linfático e Sistema Respiratório Sistema Digestório 
-* Unidade III: Sistema Urinário. Sistemas Genital feminino e masculino. Sistema Endócrino.
+* **Unidade I**: Introdução à Anatomia. Osteologia. Artrologia. Miologia
+* **Unidade II**: Sistema Nervoso. Sistema Cardiovascular. Sistema Linfático e Sistema Respiratório Sistema Digestório 
+* **Unidade III**: Sistema Urinário. Sistemas Genital feminino e masculino. Sistema Endócrino.
   
 
 ## Metodologia Didática
@@ -88,7 +105,7 @@ Aulas dialogadas, participativas e inclusivas, uso de metodologias ativas (PBL, 
 |2º Avaliação|31/10/2022  |- Prova prática valendo 8,0 com assuntos da I e II unidades.<br> - Um TAE valendo até 2,0 que deverá ser entregue no dia da prova. (TAE = Patologias de livre escolha sobre os sistemas abordados na I e II unidades)|
 |3º Avaliação|<amarelo>dd/mm/aaaa</amarelo>|Simulado valendo 7,0 e avaliação qualitativa (assiduidade, pontualidade, participação em sala e relações interpessoais) valendo até 3,0. O Simulado será sobre os assuntos da III unidade.|
 
-07-12-22 QUARTA FEIRA = SIMULADO INTEGRADO DA FTM
+* Obs: 07-12-22 QUARTA FEIRA = SIMULADO INTEGRADO DA FTM
 
 ## Trabalho Acadêmico Efetivo (TAE) da disciplina
 
