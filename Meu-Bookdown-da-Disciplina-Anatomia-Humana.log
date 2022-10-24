@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.10.10)  24 OCT 2022 11:12
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.10.10)  24 OCT 2022 11:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -886,7 +886,10 @@ File: figuras/LIVRO-GENERICO.jpeg Graphic file (type bmp)
 <figuras/LIVRO-GENERICO.jpeg>
 [5
 
-] [6] [7] [8]
+] [6] [7]
+Underfull \vbox (badness 1147) has occurred while \output is active []
+
+[8]
 Underfull \hbox (badness 1460) in paragraph at lines 319--321
 []\TU/lmr/m/n/10 RUIZ, Cristiane Regina (Org.). Anatomia humana basica. São
  []
@@ -901,11 +904,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 365--367
 
  []
 
-[9] [10
-
-]
+[9] [10]
 \bbl@ensure@brazilian {Capítulo} 2.
-[11] [12
+[11
+
+] [12
 
 ]
 \bbl@ensure@brazilian {Capítulo} 3.
