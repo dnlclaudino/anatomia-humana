@@ -61,7 +61,7 @@ knitr::include_graphics("figuras/LIVRO-GENERICO.jpeg")
 
 ## Professor(a)
 
-* **Profª. Dra.** <a href="http://lattes.cnpq.br/0369824862534158">Cláudia Maria de Souza</a>
+* **Profª. Dra.** <a href="http://lattes.cnpq.br/8443579185154152">Cláudia Maria de Souza</a>
 
 ## Objetivos da Disciplina
 
