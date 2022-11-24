@@ -18,8 +18,6 @@ A primeira aula foi expositiva e tratou da definição da Anatomia, disciplina e
 |:--|:--|
 |08/08/2022|Divisões do corpo humano;Abreviações diversas;Termos e expressões anatômicas diversas;Posição Anatômica;Planos de Secção; Planos de Delimitação;Termos de Posição e Direção|
 
-Neste dia @PROF-SOUSA-2022 tratou sobre os assuntos a seguir. Adicionalmente, resumimos o capítulo 1 do livro @MARIEB-WILHELM-MALLAT-2014.
-
 ### Divisões do Corpo Humano
 
 1. Cabeça
@@ -143,7 +141,7 @@ São 6 lados. Um para cada lado do corpo e são originários dos **planos de se�
 
 ### Referências
 
-[1]: SOUZA, Cláudia Maria. **Introdução à Anatomia Humana**. Anatomia Humana. Notas de aula (08/08/2022), Faculdade Três Marias, Paraíba 2022.
+[1]:  **Introdução à Anatomia Humana**. Anatomia Humana. Notas de aula (08/08/2022), Faculdade Três Marias, Paraíba 2022.
 
 [2]: MARIEB, Elaine N.; WILHELM, Patricia Brady; MALLAT, Jon. **Anatomia Humana**. 7.ed. São Paulo:Pearson, 2014.
 
@@ -224,9 +222,9 @@ O esqueleto é dividido:
 
 ### Referências
 
-[1]: SOUZA, Cláudia Maria. **Introdução à Anatomia Humana**. Anatomia Humana. Notas de aula (15/08/2022), Faculdade Três Marias, Paraíba 2022.
+[1]:  **Introdução à Anatomia Humana**. Anatomia Humana. Notas de aula (15/08/2022), Faculdade Três Marias, Paraíba 2022.
 
-[2]: SOUZA, Cláudia Maria. **Osteologia (1/2)**. Anatomia Humana. Notas de aula (15/08/2022), Faculdade Três Marias, Paraíba 2022.
+[2]:  **Osteologia (1/2)**. Anatomia Humana. Notas de aula (15/08/2022), Faculdade Três Marias, Paraíba 2022.
 
 ## Nota de Aula nº 04
 
@@ -347,7 +345,7 @@ knitr::include_graphics("figuras/Aula4-3b-ossos-do-pe.jpg")
 
 ### Referências
 
-[1]: SOUZA, Cláudia Maria. **Osteologia (2/2)**. Anatomia Humana. Notas de aula (22/08/2022), Faculdade Três Marias, Paraíba 2022.
+[1]:  **Osteologia (2/2)**. Anatomia Humana. Notas de aula (22/08/2022), Faculdade Três Marias, Paraíba 2022.
 
 ## Nota de Aula nº 05
 
@@ -549,11 +547,11 @@ knitr::include_graphics("figuras/Aula5-7-musculos-do-abdome.jpg")
 
 ### Referências
 
-[1]: SOUZA, Cláudia Maria. **Sistema Articulatório**. Anatomia Humana. Notas de aula (29/08/2022), Faculdade Três Marias, Paraíba 2022.
+[1]:  **Sistema Articulatório**. Anatomia Humana. Notas de aula (29/08/2022), Faculdade Três Marias, Paraíba 2022.
 
-[2]: SOUZA, Cláudia Maria. **Sistema Muscular**. Anatomia Humana. Notas de aula (29/08/2022), Faculdade Três Marias, Paraíba 2022.
+[2]:  **Sistema Muscular**. Anatomia Humana. Notas de aula (29/08/2022), Faculdade Três Marias, Paraíba 2022.
 
-[3]: SOUZA, Cláudia Maria. **Aula de revisão**. Anatomia Humana. Notas de aula (05/09/2022), Faculdade Três Marias, Paraíba 2022.
+[3]:  **Aula de revisão**. Anatomia Humana. Notas de aula (05/09/2022), Faculdade Três Marias, Paraíba 2022.
 
 ## Nota de Aula nº 06
 
